@@ -1,0 +1,911 @@
+{
+  "generated_at": "2026-09-14T10:27:09.398Z",
+  "user": "CanisLupusNL",
+  "collection_count": 1043,
+  "wantlist_count": 789,
+  "folders": [],
+  "recent_additions": [
+    {
+      "artist": "Laurent Garnier",
+      "title": "Unreasonable Behaviour",
+      "year": 2000,
+      "label": "F Communications",
+      "format": "CD Album Stereo",
+      "release_id": 42395,
+      "date_added": "2026-09-04"
+    },
+    {
+      "artist": "U2",
+      "title": "Under A Blood Red Sky (Live)",
+      "year": null,
+      "label": "Island Records",
+      "format": "CD Album Reissue",
+      "release_id": 3114821,
+      "date_added": "2026-09-04"
+    },
+    {
+      "artist": "Everything But The Girl",
+      "title": "The Best Of Everything But The Girl",
+      "year": 1996,
+      "label": "Blanco Y Negro",
+      "format": "CD Album Compilation",
+      "release_id": 9371266,
+      "date_added": "2026-09-04"
+    },
+    {
+      "artist": "NOFX",
+      "title": "Punk In Drublic",
+      "year": null,
+      "label": "Epitaph",
+      "format": "CD Album Reissue",
+      "release_id": 1055662,
+      "date_added": "2026-09-04"
+    },
+    {
+      "artist": "Brainpower",
+      "title": "Verschil Moet Er Zijn",
+      "year": 2002,
+      "label": "[PIAS] Recordings",
+      "format": "CD Album Enhanced",
+      "release_id": 580428,
+      "date_added": "2026-09-04"
+    },
+    {
+      "artist": "Jamiroquai",
+      "title": "A Funk Odyssey",
+      "year": 2001,
+      "label": "Sony Soho Square",
+      "format": "CD Album Stereo",
+      "release_id": 21976,
+      "date_added": "2026-09-04"
+    },
+    {
+      "artist": "The Chemical Brothers",
+      "title": "We Are The Night",
+      "year": 2007,
+      "label": "Freestyle Dust",
+      "format": "CD Album Enhanced",
+      "release_id": 1004312,
+      "date_added": "2026-09-03"
+    },
+    {
+      "artist": "The Q4",
+      "title": "Sound Surroundings",
+      "year": 2010,
+      "label": "Project: Mooncircle",
+      "format": "CD Album",
+      "release_id": 2105718,
+      "date_added": "2026-09-03"
+    },
+    {
+      "artist": "The Band",
+      "title": "The Last Waltz",
+      "year": 2003,
+      "label": "Rhino Records (2)",
+      "format": "CD Album Reissue Remastered",
+      "release_id": 857702,
+      "date_added": "2026-09-03"
+    },
+    {
+      "artist": "Arrested Development",
+      "title": "Zingalamaduni",
+      "year": 1994,
+      "label": "Chrysalis",
+      "format": "CD Album",
+      "release_id": 410066,
+      "date_added": "2026-09-03"
+    },
+    {
+      "artist": "Tom Morello",
+      "title": "The Atlas Underground",
+      "year": 2018,
+      "label": "BMG",
+      "format": "CD",
+      "release_id": 12651584,
+      "date_added": "2026-09-03"
+    },
+    {
+      "artist": "Moderat",
+      "title": "III",
+      "year": 2016,
+      "label": "Monkeytown Records",
+      "format": "CD Album Deluxe Edition Stereo / CD",
+      "release_id": 8330443,
+      "date_added": "2026-09-03"
+    },
+    {
+      "artist": "Eels",
+      "title": "Extreme Witchcraft",
+      "year": 2022,
+      "label": "E Works Records",
+      "format": "CD Album",
+      "release_id": 21926749,
+      "date_added": "2026-09-03"
+    },
+    {
+      "artist": "Fleetwood Mac",
+      "title": "The Dance",
+      "year": 1997,
+      "label": "Reprise Records",
+      "format": "CD Album",
+      "release_id": 489105,
+      "date_added": "2026-09-03"
+    },
+    {
+      "artist": "Bebel Gilberto",
+      "title": "Bebel Gilberto",
+      "year": 2004,
+      "label": "Ziriguiboom",
+      "format": "CD Album Stereo",
+      "release_id": 300727,
+      "date_added": "2026-09-03"
+    },
+    {
+      "artist": "Kraak & Smaak",
+      "title": "Boogie Angst",
+      "year": 2005,
+      "label": "Jalapeno Records",
+      "format": "CD Album",
+      "release_id": 471892,
+      "date_added": "2026-09-03"
+    },
+    {
+      "artist": "Various",
+      "title": "Baby Driver (Music From The Motion Picture)",
+      "year": 2017,
+      "label": "30th Century Records",
+      "format": "CD Compilation",
+      "release_id": 10694499,
+      "date_added": "2026-08-31"
+    },
+    {
+      "artist": "Pharrell Williams",
+      "title": "G I R L",
+      "year": 2014,
+      "label": "Columbia",
+      "format": "CD Album Stereo",
+      "release_id": 5459672,
+      "date_added": "2026-08-31"
+    },
+    {
+      "artist": "Q65",
+      "title": "Revolution",
+      "year": 1966,
+      "label": "Decca",
+      "format": "Vinyl LP Album Mono",
+      "release_id": 598257,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Flavium",
+      "title": "Against The Grain",
+      "year": 1982,
+      "label": "Polydor",
+      "format": "Vinyl LP",
+      "release_id": 3502605,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Nas",
+      "title": "Illmatic",
+      "year": 2006,
+      "label": "Columbia",
+      "format": "Vinyl LP Album Reissue Repress",
+      "release_id": 3207332,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Rage Against The Machine",
+      "title": "Evil Empire",
+      "year": 2018,
+      "label": "Epic",
+      "format": "Vinyl LP Album Reissue",
+      "release_id": 27568578,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Wu-Tang Clan",
+      "title": "Enter The Wu-Tang (36 Chambers)",
+      "year": 2018,
+      "label": "RCA",
+      "format": "Vinyl LP Album Reissue",
+      "release_id": 25744036,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Zero 7",
+      "title": "Simple Things",
+      "year": 2001,
+      "label": "Ultimate Dilemma",
+      "format": "CD Album",
+      "release_id": 49594,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Yppah",
+      "title": "You Are Beautiful At All Times",
+      "year": 2006,
+      "label": "Ninja Tune",
+      "format": "CD Album",
+      "release_id": 809465,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Miles Davis",
+      "title": "Kind Of Blue",
+      "year": 1997,
+      "label": "Columbia",
+      "format": "CD Album Reissue Remastered",
+      "release_id": 368061,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "John Coltrane",
+      "title": "Blue Train",
+      "year": 2003,
+      "label": "Blue Note",
+      "format": "CD Album Reissue Remastered Copy Protected",
+      "release_id": 435859,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Cannonball Adderley",
+      "title": "Somethin' Else",
+      "year": 1999,
+      "label": "Blue Note",
+      "format": "CD Album Reissue Remastered",
+      "release_id": 482024,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Stevie Wonder",
+      "title": "Songs In The Key Of Life",
+      "year": 2000,
+      "label": "Motown",
+      "format": "CD Album Reissue Remastered",
+      "release_id": 556456,
+      "date_added": "2026-08-29"
+    },
+    {
+      "artist": "Kate Nash",
+      "title": "Made Of Bricks",
+      "year": 2007,
+      "label": "Fiction Records",
+      "format": "CD Album",
+      "release_id": 1104100,
+      "date_added": "2026-08-29"
+    },
+    {
+      "artist": "Traffic",
+      "title": "John Barleycorn Must Die",
+      "year": 1999,
+      "label": "Island Records",
+      "format": "CD Album Reissue Remastered",
+      "release_id": 5564640,
+      "date_added": "2026-08-29"
+    },
+    {
+      "artist": "Jason Mraz",
+      "title": "Love Is A Four Letter Word",
+      "year": 2012,
+      "label": "Atlantic",
+      "format": "CD Album Enhanced",
+      "release_id": 3574671,
+      "date_added": "2026-08-29"
+    },
+    {
+      "artist": "Madvillain",
+      "title": "Madvillainy",
+      "year": 2016,
+      "label": "Stones Throw Records",
+      "format": "CD Album Repress",
+      "release_id": 11248533,
+      "date_added": "2026-08-29"
+    },
+    {
+      "artist": "Jive Bunny And The Mastermixers",
+      "title": "The Album",
+      "year": 1989,
+      "label": "ATCO Records",
+      "format": "CD",
+      "release_id": 906895,
+      "date_added": "2026-08-29"
+    },
+    {
+      "artist": "Various",
+      "title": "Countdown Rockballads",
+      "year": 1992,
+      "label": "Magnum",
+      "format": "CD Compilation",
+      "release_id": 777062,
+      "date_added": "2026-08-29"
+    },
+    {
+      "artist": "Timecode",
+      "title": "02.2",
+      "year": 2002,
+      "label": "Moving Shadow",
+      "format": "CD Sampler Mixed",
+      "release_id": 63883,
+      "date_added": "2026-08-29"
+    },
+    {
+      "artist": "White Lies",
+      "title": "To Lose My Life...",
+      "year": 2009,
+      "label": "Fiction Records",
+      "format": "CD Album",
+      "release_id": 3274366,
+      "date_added": "2026-08-29"
+    },
+    {
+      "artist": "Mike Oldfield",
+      "title": "Crises",
+      "year": 1995,
+      "label": "Disky",
+      "format": "CD Album Reissue",
+      "release_id": 7183623,
+      "date_added": "2026-08-29"
+    },
+    {
+      "artist": "Kings Of Convenience",
+      "title": "Declaration Of Dependence",
+      "year": null,
+      "label": "Virgin",
+      "format": "CD HDCD Album Reissue",
+      "release_id": 13513913,
+      "date_added": "2026-08-29"
+    },
+    {
+      "artist": "Feist",
+      "title": "The Reminder",
+      "year": 2007,
+      "label": "Cherrytree Records",
+      "format": "CD Album",
+      "release_id": 1033298,
+      "date_added": "2026-08-29"
+    },
+    {
+      "artist": "Various",
+      "title": "Slow Down. Pleasure Up.",
+      "year": 2002,
+      "label": "ID&T",
+      "format": "CD Mixed Promo",
+      "release_id": 58860,
+      "date_added": "2026-08-29"
+    },
+    {
+      "artist": "Christophe Héral, Billy Martin",
+      "title": "Rayman Legends (Original Game Soundtrack)",
+      "year": 2013,
+      "label": "Ubisoft",
+      "format": "File AAC Album",
+      "release_id": 26794253,
+      "date_added": "2026-08-27"
+    },
+    {
+      "artist": "Danger Doom",
+      "title": "The Mouse And The Mask",
+      "year": 2014,
+      "label": "Lex Records",
+      "format": "File AAC Album",
+      "release_id": 10486201,
+      "date_added": "2026-08-27"
+    },
+    {
+      "artist": "Avril Lavigne",
+      "title": "Let Go",
+      "year": 2002,
+      "label": "Arista",
+      "format": "CD Album Copy Protected",
+      "release_id": 8641819,
+      "date_added": "2026-08-19"
+    },
+    {
+      "artist": "Mariah Carey",
+      "title": "Butterfly",
+      "year": 1997,
+      "label": "Columbia",
+      "format": "CD Album",
+      "release_id": 455168,
+      "date_added": "2026-08-19"
+    },
+    {
+      "artist": "Bryan Adams",
+      "title": "Unplugged",
+      "year": 1997,
+      "label": "A&M Records",
+      "format": "CD Album",
+      "release_id": 12293417,
+      "date_added": "2026-08-19"
+    },
+    {
+      "artist": "Kylie Minogue",
+      "title": "Fever",
+      "year": 2001,
+      "label": "Parlophone",
+      "format": "CD Album",
+      "release_id": 6635860,
+      "date_added": "2026-08-19"
+    },
+    {
+      "artist": "Manau",
+      "title": "Panique Celtique",
+      "year": 1998,
+      "label": "Polydor",
+      "format": "CD Album",
+      "release_id": 4102044,
+      "date_added": "2026-08-19"
+    },
+    {
+      "artist": "Christina Aguilera",
+      "title": "Keeps Gettin' Better: A Decade Of Hits",
+      "year": 2008,
+      "label": "RCA",
+      "format": "CD Compilation",
+      "release_id": 1799508,
+      "date_added": "2026-08-19"
+    },
+    {
+      "artist": "Ed Sheeran",
+      "title": "÷ (Divide)",
+      "year": 2017,
+      "label": "Asylum Records",
+      "format": "CD Album Deluxe Edition",
+      "release_id": 9918677,
+      "date_added": "2026-08-19"
+    }
+  ],
+  "recent_wants": [
+    {
+      "artist": "Chef'Special",
+      "title": "New Gold",
+      "year": 2024,
+      "label": "Kaiser Records",
+      "format": "CD Album",
+      "release_id": 30375929,
+      "date_added": "2026-09-12"
+    },
+    {
+      "artist": "Chef'Special",
+      "title": "Unfold",
+      "year": 2020,
+      "label": "Kaiser Records",
+      "format": "CD Album",
+      "release_id": 16174031,
+      "date_added": "2026-09-12"
+    },
+    {
+      "artist": "GoGo Penguin",
+      "title": "v2.0",
+      "year": 2016,
+      "label": "Gondwana Records",
+      "format": "CD Album Repress",
+      "release_id": 5506513,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "GoGo Penguin",
+      "title": "v2.0",
+      "year": 2014,
+      "label": "Gondwana Records",
+      "format": "CD Album",
+      "release_id": 16004841,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "GoGo Penguin",
+      "title": "v2.0 Special Edition",
+      "year": 2018,
+      "label": "Gondwana Records",
+      "format": "CD Album Reissue Special Edition",
+      "release_id": 28535938,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Stan Getz, João Gilberto, Antonio Carlos Jobim",
+      "title": "Getz / Gilberto",
+      "year": 2019,
+      "label": "Verve Records",
+      "format": "CD Album Reissue Remastered Repress Stereo Mono",
+      "release_id": 13980182,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Stan Getz, João Gilberto, Antonio Carlos Jobim",
+      "title": "Getz / Gilberto",
+      "year": 2008,
+      "label": "Verve Records",
+      "format": "CD Album Reissue",
+      "release_id": 8327386,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Stan Getz, João Gilberto, Antonio Carlos Jobim",
+      "title": "Getz / Gilberto",
+      "year": 1997,
+      "label": "Verve Records",
+      "format": "CD Album Reissue Remastered",
+      "release_id": 8062284,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Stan Getz, João Gilberto, Antonio Carlos Jobim",
+      "title": "Getz / Gilberto",
+      "year": 1997,
+      "label": "Verve Records",
+      "format": "CD Album Reissue Remastered",
+      "release_id": 1281346,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "E.S.T.",
+      "title": "From Gagarin's Point Of View",
+      "year": 2007,
+      "label": "Superstudio Gul",
+      "format": "CD Album Reissue",
+      "release_id": 18019957,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "E.S.T.",
+      "title": "From Gagarin's Point Of View",
+      "year": 1999,
+      "label": "Superstudio Gul",
+      "format": "CD Album",
+      "release_id": 15358679,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "E.S.T.",
+      "title": "From Gagarin's Point Of View",
+      "year": 1999,
+      "label": "ACT (4)",
+      "format": "CD Album Reissue",
+      "release_id": 2422947,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "E.S.T.",
+      "title": "From Gagarin's Point Of View",
+      "year": 1999,
+      "label": "Superstudio Gul",
+      "format": "CD Album",
+      "release_id": 265697,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Nils Petter Molvær",
+      "title": "Khmer",
+      "year": null,
+      "label": "ECM Records",
+      "format": "CD Album Reissue",
+      "release_id": 3555326,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Nils Petter Molvær",
+      "title": "Khmer",
+      "year": null,
+      "label": "ECM Records",
+      "format": "CD Album Reissue",
+      "release_id": 163698,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Nils Petter Molvær",
+      "title": "Khmer",
+      "year": 1997,
+      "label": "ECM Records",
+      "format": "CD Album Promo",
+      "release_id": 19305001,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Nils Petter Molvær",
+      "title": "Khmer",
+      "year": 1997,
+      "label": "ECM Records",
+      "format": "CD Album",
+      "release_id": 5663409,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Nils Petter Molvær",
+      "title": "Khmer",
+      "year": 1997,
+      "label": "ECM Records",
+      "format": "CD Album",
+      "release_id": 4816629,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Charles Mingus",
+      "title": "Mingus Ah Um",
+      "year": 2007,
+      "label": "Columbia",
+      "format": "CD Album Remastered Reissue",
+      "release_id": 1156981,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Charles Mingus",
+      "title": "Mingus Ah Um",
+      "year": null,
+      "label": "CBS",
+      "format": "CD Album Reissue Remastered Stereo",
+      "release_id": 1333372,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Charles Mingus",
+      "title": "Mingus Ah Um",
+      "year": 2018,
+      "label": "Jazz Images",
+      "format": "CD Album Reissue Remastered Stereo",
+      "release_id": 13723418,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Charles Mingus",
+      "title": "Mingus Ah Um",
+      "year": 1999,
+      "label": "Columbia",
+      "format": "CD Album Reissue Remastered Stereo",
+      "release_id": 2430595,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "The Cannonball Adderley Quintet",
+      "title": "Mercy, Mercy, Mercy! (Live At \"The Club\")",
+      "year": 2009,
+      "label": "Capitol Jazz",
+      "format": "CD Album Reissue",
+      "release_id": 9258485,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "The Cannonball Adderley Quintet",
+      "title": "Mercy, Mercy, Mercy! (Live At \"The Club\")",
+      "year": 1995,
+      "label": "Capitol Jazz",
+      "format": "CD Album Reissue",
+      "release_id": 4053721,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Koop",
+      "title": "Waltz For Koop",
+      "year": 2002,
+      "label": "Stimulus",
+      "format": "CD Album",
+      "release_id": 246087,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Koop",
+      "title": "Waltz For Koop",
+      "year": 2001,
+      "label": "Superstudio Grå",
+      "format": "CD Album",
+      "release_id": 669469,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Madvillain",
+      "title": "Madvillainy",
+      "year": 2024,
+      "label": "Stones Throw Records",
+      "format": "Vinyl LP 45 RPM Album Reissue Remastered",
+      "release_id": 32459088,
+      "date_added": "2026-08-05"
+    },
+    {
+      "artist": "Madvillain",
+      "title": "Madvillainy",
+      "year": 2006,
+      "label": "Stones Throw Records",
+      "format": "Vinyl LP Album Reissue Stereo",
+      "release_id": 6035515,
+      "date_added": "2026-08-05"
+    },
+    {
+      "artist": "Daft Punk",
+      "title": "TRON: Legacy (Original Motion Picture Soundtrack)",
+      "year": 2010,
+      "label": "Walt Disney Records",
+      "format": "CD Album Enhanced / CD Enhanced / All Media Special Edition",
+      "release_id": 2588959,
+      "date_added": "2026-07-14"
+    },
+    {
+      "artist": "Daft Punk",
+      "title": "TRON: Legacy (Original Motion Picture Soundtrack)",
+      "year": 2010,
+      "label": "Walt Disney Records",
+      "format": "CD Album",
+      "release_id": 2626544,
+      "date_added": "2026-07-14"
+    },
+    {
+      "artist": "Daft Punk",
+      "title": "TRON: Legacy (Original Motion Picture Soundtrack)",
+      "year": 2010,
+      "label": "Walt Disney Records",
+      "format": "CD Album Enhanced",
+      "release_id": 12176463,
+      "date_added": "2026-07-14"
+    },
+    {
+      "artist": "Daft Punk",
+      "title": "TRON: Legacy (Original Motion Picture Soundtrack)",
+      "year": 2010,
+      "label": "Walt Disney Records",
+      "format": "CD Album Enhanced",
+      "release_id": 23506904,
+      "date_added": "2026-07-14"
+    },
+    {
+      "artist": "Alanis Morissette",
+      "title": "Live At Montreux 2012",
+      "year": 2013,
+      "label": "Eagle Vision",
+      "format": "Blu-ray Multichannel",
+      "release_id": 4501501,
+      "date_added": "2026-07-08"
+    },
+    {
+      "artist": "Alanis Morissette",
+      "title": "Live At Montreux 2012",
+      "year": 2017,
+      "label": "EV Classics",
+      "format": "Blu-ray Reissue Multichannel",
+      "release_id": 13020469,
+      "date_added": "2026-07-08"
+    },
+    {
+      "artist": "Various",
+      "title": "Loud Rocks",
+      "year": 2000,
+      "label": "Loud Records",
+      "format": "CD Compilation Club Edition",
+      "release_id": 10853081,
+      "date_added": "2026-06-16"
+    },
+    {
+      "artist": "Various",
+      "title": "Loud Rocks",
+      "year": 2000,
+      "label": "Loud Records",
+      "format": "CD Compilation",
+      "release_id": 2539116,
+      "date_added": "2026-06-16"
+    },
+    {
+      "artist": "Various",
+      "title": "Loud Rocks",
+      "year": 2000,
+      "label": "Loud Records",
+      "format": "CD Compilation",
+      "release_id": 523694,
+      "date_added": "2026-06-16"
+    },
+    {
+      "artist": "Various",
+      "title": "Loud Rocks",
+      "year": 2000,
+      "label": "Loud Records",
+      "format": "CD Compilation",
+      "release_id": 2345317,
+      "date_added": "2026-06-16"
+    },
+    {
+      "artist": "Various",
+      "title": "Loud Rocks",
+      "year": 2000,
+      "label": "Loud Records",
+      "format": "CD Compilation",
+      "release_id": 870433,
+      "date_added": "2026-06-16"
+    },
+    {
+      "artist": "Jamiroquai",
+      "title": "Automaton",
+      "year": 2017,
+      "label": "Virgin EMI Records",
+      "format": "CD Album Limited Edition",
+      "release_id": 10068005,
+      "date_added": "2026-06-04"
+    },
+    {
+      "artist": "Jamiroquai",
+      "title": "Automaton",
+      "year": 2017,
+      "label": "Virgin EMI Records",
+      "format": "CD Album",
+      "release_id": 10056690,
+      "date_added": "2026-06-04"
+    },
+    {
+      "artist": "Nas",
+      "title": "It Was Written",
+      "year": null,
+      "label": "Columbia",
+      "format": "CD Album Repress",
+      "release_id": 16249796,
+      "date_added": "2026-06-03"
+    },
+    {
+      "artist": "Nas",
+      "title": "It Was Written",
+      "year": 1996,
+      "label": "Columbia",
+      "format": "CD Album",
+      "release_id": 15833907,
+      "date_added": "2026-06-03"
+    },
+    {
+      "artist": "Nas",
+      "title": "It Was Written",
+      "year": 1996,
+      "label": "Columbia",
+      "format": "CD Album",
+      "release_id": 455620,
+      "date_added": "2026-06-03"
+    },
+    {
+      "artist": "Nas",
+      "title": "It Was Written",
+      "year": 1996,
+      "label": "Columbia",
+      "format": "CD Album",
+      "release_id": 22250344,
+      "date_added": "2026-06-03"
+    },
+    {
+      "artist": "Nas",
+      "title": "It Was Written",
+      "year": null,
+      "label": "Columbia",
+      "format": "CD Album Reissue",
+      "release_id": 2354951,
+      "date_added": "2026-06-03"
+    },
+    {
+      "artist": "Nas",
+      "title": "It Was Written",
+      "year": null,
+      "label": "Columbia",
+      "format": "CD Album",
+      "release_id": 36462480,
+      "date_added": "2026-06-03"
+    },
+    {
+      "artist": "Nas",
+      "title": "It Was Written",
+      "year": 1996,
+      "label": "Columbia",
+      "format": "CD Album",
+      "release_id": 349148,
+      "date_added": "2026-06-03"
+    },
+    {
+      "artist": "Rage Against The Machine",
+      "title": "Live & Rare",
+      "year": 1997,
+      "label": "Sony",
+      "format": "CD Album Compilation",
+      "release_id": 368153,
+      "date_added": "2026-06-02"
+    },
+    {
+      "artist": "Rage Against The Machine",
+      "title": "Live & Rare",
+      "year": 2000,
+      "label": "Not On Label",
+      "format": "CD Compilation Reissue",
+      "release_id": 1472642,
+      "date_added": "2026-06-02"
+    }
+  ]
+}
