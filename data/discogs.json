@@ -1,10 +1,55 @@
 {
-  "generated_at": "2026-09-14T10:27:09.398Z",
+  "generated_at": "2026-09-21T06:56:23.220Z",
   "user": "CanisLupusNL",
-  "collection_count": 1043,
+  "collection_count": 1047,
   "wantlist_count": 789,
   "folders": [],
   "recent_additions": [
+    {
+      "artist": "Michael Franti And Spearhead",
+      "title": "Yell Fire!",
+      "year": 2006,
+      "label": "Anti-",
+      "format": "CD Album",
+      "release_id": 819573,
+      "date_added": "2026-09-17"
+    },
+    {
+      "artist": "Ryuichi Sakamoto",
+      "title": "High Heels Soundtrack",
+      "year": 1992,
+      "label": "Antilles",
+      "format": "CD Album",
+      "release_id": 625969,
+      "date_added": "2026-09-17"
+    },
+    {
+      "artist": "Various",
+      "title": "City Of Angels (Music From And Inspired By The Motion Picture)",
+      "year": null,
+      "label": "Reprise Records",
+      "format": "CD HDCD Compilation Repress",
+      "release_id": 28147666,
+      "date_added": "2026-09-17"
+    },
+    {
+      "artist": "Bruce Springsteen",
+      "title": "High Hopes",
+      "year": 2014,
+      "label": "Columbia",
+      "format": "CD Album Stereo / DVD DVD-Video NTSC Copy Protected Stereo",
+      "release_id": 12160054,
+      "date_added": "2026-09-17"
+    },
+    {
+      "artist": "Various",
+      "title": "De Mooiste Muziek Uit 20 Onvergetelijke Films",
+      "year": 2009,
+      "label": "EMI",
+      "format": "CD Compilation",
+      "release_id": 17881843,
+      "date_added": "2026-09-15"
+    },
     {
       "artist": "Laurent Garnier",
       "title": "Unreasonable Behaviour",
@@ -408,51 +453,6 @@
       "label": "Columbia",
       "format": "CD Album",
       "release_id": 455168,
-      "date_added": "2026-08-19"
-    },
-    {
-      "artist": "Bryan Adams",
-      "title": "Unplugged",
-      "year": 1997,
-      "label": "A&M Records",
-      "format": "CD Album",
-      "release_id": 12293417,
-      "date_added": "2026-08-19"
-    },
-    {
-      "artist": "Kylie Minogue",
-      "title": "Fever",
-      "year": 2001,
-      "label": "Parlophone",
-      "format": "CD Album",
-      "release_id": 6635860,
-      "date_added": "2026-08-19"
-    },
-    {
-      "artist": "Manau",
-      "title": "Panique Celtique",
-      "year": 1998,
-      "label": "Polydor",
-      "format": "CD Album",
-      "release_id": 4102044,
-      "date_added": "2026-08-19"
-    },
-    {
-      "artist": "Christina Aguilera",
-      "title": "Keeps Gettin' Better: A Decade Of Hits",
-      "year": 2008,
-      "label": "RCA",
-      "format": "CD Compilation",
-      "release_id": 1799508,
-      "date_added": "2026-08-19"
-    },
-    {
-      "artist": "Ed Sheeran",
-      "title": "÷ (Divide)",
-      "year": 2017,
-      "label": "Asylum Records",
-      "format": "CD Album Deluxe Edition",
-      "release_id": 9918677,
       "date_added": "2026-08-19"
     }
   ],
@@ -865,7 +865,7 @@
     {
       "artist": "Nas",
       "title": "It Was Written",
-      "year": null,
+      "year": 1996,
       "label": "Columbia",
       "format": "CD Album Reissue",
       "release_id": 2354951,
