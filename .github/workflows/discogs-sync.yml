@@ -2,8 +2,8 @@ name: Discogs sync
 
 on:
   schedule:
-    # Elke maandag om 03:30 UTC — ruim voor de wekelijkse muziektaak van 05:00 UTC.
-    - cron: '30 3 * * 1'
+    - cron: '13 3 * * *'
+  
   workflow_dispatch: # zodat je hem ook met de hand kunt starten
 
 permissions:
