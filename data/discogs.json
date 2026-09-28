@@ -1,10 +1,19 @@
 {
-  "generated_at": "2026-09-27T09:14:03.809Z",
+  "generated_at": "2026-09-28T09:44:16.758Z",
   "user": "CanisLupusNL",
-  "collection_count": 1047,
-  "wantlist_count": 789,
+  "collection_count": 1048,
+  "wantlist_count": 791,
   "folders": [],
   "recent_additions": [
+    {
+      "artist": "James Blunt",
+      "title": "Back To Bedlam",
+      "year": 2005,
+      "label": "Custard Records",
+      "format": "CD Album",
+      "release_id": 1460681,
+      "date_added": "2026-09-27"
+    },
     {
       "artist": "Michael Franti And Spearhead",
       "title": "Yell Fire!",
@@ -445,18 +454,27 @@
       "format": "CD Album Copy Protected",
       "release_id": 8641819,
       "date_added": "2026-08-19"
-    },
-    {
-      "artist": "Mariah Carey",
-      "title": "Butterfly",
-      "year": 1997,
-      "label": "Columbia",
-      "format": "CD Album",
-      "release_id": 455168,
-      "date_added": "2026-08-19"
     }
   ],
   "recent_wants": [
+    {
+      "artist": "Pearl Jam",
+      "title": "Binaural",
+      "year": 2000,
+      "label": "Epic",
+      "format": "CD Album",
+      "release_id": 3004639,
+      "date_added": "2026-09-28"
+    },
+    {
+      "artist": "Pearl Jam",
+      "title": "Binaural",
+      "year": 2000,
+      "label": "Epic",
+      "format": "CD Album",
+      "release_id": 563371,
+      "date_added": "2026-09-28"
+    },
     {
       "artist": "Chef'Special",
       "title": "New Gold",
@@ -888,24 +906,6 @@
       "format": "CD Album",
       "release_id": 349148,
       "date_added": "2026-06-03"
-    },
-    {
-      "artist": "Rage Against The Machine",
-      "title": "Live & Rare",
-      "year": 1997,
-      "label": "Sony",
-      "format": "CD Album Compilation",
-      "release_id": 368153,
-      "date_added": "2026-06-02"
-    },
-    {
-      "artist": "Rage Against The Machine",
-      "title": "Live & Rare",
-      "year": 2000,
-      "label": "Not On Label",
-      "format": "CD Compilation Reissue",
-      "release_id": 1472642,
-      "date_added": "2026-06-02"
     }
   ]
 }
