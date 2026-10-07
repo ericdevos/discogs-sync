@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-06T10:15:22.124Z",
+  "generated_at": "2026-10-07T10:14:05.230Z",
   "user": "CanisLupusNL",
   "collection_count": 1063,
-  "wantlist_count": 791,
+  "wantlist_count": 794,
   "folders": [],
   "recent_additions": [
     {
@@ -458,6 +458,33 @@
   ],
   "recent_wants": [
     {
+      "artist": "Spacetime Continuum",
+      "title": "Sea Biscuit",
+      "year": 1994,
+      "label": "Fax +49-69/450464",
+      "format": "CD Album Limited Edition",
+      "release_id": 116948,
+      "date_added": "2026-10-07"
+    },
+    {
+      "artist": "Spacetime Continuum",
+      "title": "Sea Biscuit",
+      "year": 1994,
+      "label": "Astralwerks",
+      "format": "CD Album",
+      "release_id": 11197991,
+      "date_added": "2026-10-07"
+    },
+    {
+      "artist": "Spacetime Continuum",
+      "title": "Sea Biscuit",
+      "year": 1994,
+      "label": "Astralwerks",
+      "format": "CD Album",
+      "release_id": 41543,
+      "date_added": "2026-10-07"
+    },
+    {
       "artist": "Pearl Jam",
       "title": "Binaural",
       "year": 2000,
@@ -878,33 +905,6 @@
       "label": "Columbia",
       "format": "CD Album",
       "release_id": 22250344,
-      "date_added": "2026-06-03"
-    },
-    {
-      "artist": "Nas",
-      "title": "It Was Written",
-      "year": 1996,
-      "label": "Columbia",
-      "format": "CD Album Reissue",
-      "release_id": 2354951,
-      "date_added": "2026-06-03"
-    },
-    {
-      "artist": "Nas",
-      "title": "It Was Written",
-      "year": null,
-      "label": "Columbia",
-      "format": "CD Album",
-      "release_id": 36462480,
-      "date_added": "2026-06-03"
-    },
-    {
-      "artist": "Nas",
-      "title": "It Was Written",
-      "year": 1996,
-      "label": "Columbia",
-      "format": "CD Album",
-      "release_id": 349148,
       "date_added": "2026-06-03"
     }
   ]
