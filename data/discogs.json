@@ -1,10 +1,73 @@
 {
-  "generated_at": "2026-10-07T10:14:05.230Z",
+  "generated_at": "2026-10-08T10:32:49.784Z",
   "user": "CanisLupusNL",
-  "collection_count": 1063,
+  "collection_count": 1070,
   "wantlist_count": 794,
   "folders": [],
   "recent_additions": [
+    {
+      "artist": "Audioslave",
+      "title": "Out Of Exile",
+      "year": 2005,
+      "label": "Interscope Records",
+      "format": "CD Album",
+      "release_id": 469724,
+      "date_added": "2026-10-07"
+    },
+    {
+      "artist": "Audioslave",
+      "title": "Audioslave",
+      "year": 2002,
+      "label": "Epic",
+      "format": "CD Album",
+      "release_id": 403095,
+      "date_added": "2026-10-07"
+    },
+    {
+      "artist": "Pearl Jam",
+      "title": "Binaural",
+      "year": 2000,
+      "label": "Epic",
+      "format": "CD Album",
+      "release_id": 3004639,
+      "date_added": "2026-10-07"
+    },
+    {
+      "artist": "Rage Against The Machine",
+      "title": "Live & Alive",
+      "year": 1994,
+      "label": "Imtrat",
+      "format": "CD Unofficial Release",
+      "release_id": 1417782,
+      "date_added": "2026-10-07"
+    },
+    {
+      "artist": "Postmen",
+      "title": "Revival",
+      "year": 2001,
+      "label": "WEA",
+      "format": "CD Album",
+      "release_id": 320098,
+      "date_added": "2026-10-07"
+    },
+    {
+      "artist": "Rage Against The Machine",
+      "title": "Justify Those That Die",
+      "year": 1993,
+      "label": "Kiss The Stone",
+      "format": "CD Unofficial Release Stereo",
+      "release_id": 1310539,
+      "date_added": "2026-10-07"
+    },
+    {
+      "artist": "AIR",
+      "title": "The Virgin Suicides Redux",
+      "year": 2025,
+      "label": "Aircheology",
+      "format": "CD Reissue Stereo / CD Stereo / Blu-ray Blu-ray Audio Album Reissue Stereo Multichannel / All Media Deluxe Edition",
+      "release_id": 35096396,
+      "date_added": "2026-10-07"
+    },
     {
       "artist": "Eric Clapton",
       "title": "Unplugged - Enhanced Edition",
@@ -390,69 +453,6 @@
       "label": "Columbia",
       "format": "Vinyl LP Album Reissue Repress",
       "release_id": 3207332,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "Rage Against The Machine",
-      "title": "Evil Empire",
-      "year": 2018,
-      "label": "Epic",
-      "format": "Vinyl LP Album Reissue",
-      "release_id": 27568578,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "Wu-Tang Clan",
-      "title": "Enter The Wu-Tang (36 Chambers)",
-      "year": 2018,
-      "label": "RCA",
-      "format": "Vinyl LP Album Reissue",
-      "release_id": 25744036,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "Zero 7",
-      "title": "Simple Things",
-      "year": 2001,
-      "label": "Ultimate Dilemma",
-      "format": "CD Album",
-      "release_id": 49594,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "Yppah",
-      "title": "You Are Beautiful At All Times",
-      "year": 2006,
-      "label": "Ninja Tune",
-      "format": "CD Album",
-      "release_id": 809465,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "Miles Davis",
-      "title": "Kind Of Blue",
-      "year": 1997,
-      "label": "Columbia",
-      "format": "CD Album Reissue Remastered",
-      "release_id": 368061,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "John Coltrane",
-      "title": "Blue Train",
-      "year": 2003,
-      "label": "Blue Note",
-      "format": "CD Album Reissue Remastered Copy Protected",
-      "release_id": 435859,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "Cannonball Adderley",
-      "title": "Somethin' Else",
-      "year": 1999,
-      "label": "Blue Note",
-      "format": "CD Album Reissue Remastered",
-      "release_id": 482024,
       "date_added": "2026-08-30"
     }
   ],
