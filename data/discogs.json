@@ -1,17 +1,18 @@
 {
-  "generated_at": "2026-10-12T10:46:20.724Z",
+  "generated_at": "2026-10-13T07:31:15.929Z",
   "user": "CanisLupusNL",
   "collection_count": 1070,
-  "wantlist_count": 794,
+  "wantlist_count": 800,
+  "wantlist_unique_masters": 258,
   "folders": [],
   "recent_additions": [
     {
-      "artist": "Audioslave",
-      "title": "Out Of Exile",
-      "year": 2005,
-      "label": "Interscope Records",
+      "artist": "Postmen",
+      "title": "Revival",
+      "year": 2001,
+      "label": "WEA",
       "format": "CD Album",
-      "release_id": 469724,
+      "release_id": 320098,
       "date_added": "2026-10-07"
     },
     {
@@ -24,30 +25,12 @@
       "date_added": "2026-10-07"
     },
     {
-      "artist": "Pearl Jam",
-      "title": "Binaural",
-      "year": 2000,
-      "label": "Epic",
+      "artist": "Audioslave",
+      "title": "Out Of Exile",
+      "year": 2005,
+      "label": "Interscope Records",
       "format": "CD Album",
-      "release_id": 3004639,
-      "date_added": "2026-10-07"
-    },
-    {
-      "artist": "Rage Against The Machine",
-      "title": "Live & Alive",
-      "year": 1994,
-      "label": "Imtrat",
-      "format": "CD Unofficial Release",
-      "release_id": 1417782,
-      "date_added": "2026-10-07"
-    },
-    {
-      "artist": "Postmen",
-      "title": "Revival",
-      "year": 2001,
-      "label": "WEA",
-      "format": "CD Album",
-      "release_id": 320098,
+      "release_id": 469724,
       "date_added": "2026-10-07"
     },
     {
@@ -60,6 +43,24 @@
       "date_added": "2026-10-07"
     },
     {
+      "artist": "Rage Against The Machine",
+      "title": "Live & Alive",
+      "year": 1994,
+      "label": "Imtrat",
+      "format": "CD Unofficial Release",
+      "release_id": 1417782,
+      "date_added": "2026-10-07"
+    },
+    {
+      "artist": "Pearl Jam",
+      "title": "Binaural",
+      "year": 2000,
+      "label": "Epic",
+      "format": "CD Album",
+      "release_id": 3004639,
+      "date_added": "2026-10-07"
+    },
+    {
       "artist": "AIR",
       "title": "The Virgin Suicides Redux",
       "year": 2025,
@@ -69,12 +70,48 @@
       "date_added": "2026-10-07"
     },
     {
+      "artist": "Jimi Hendrix",
+      "title": "Live At Woodstock",
+      "year": 2005,
+      "label": "Experience Hendrix",
+      "format": "DVD DVD-Video Multichannel Special Edition Stereo",
+      "release_id": 945034,
+      "date_added": "2026-10-01"
+    },
+    {
+      "artist": "Red Hot Chili Peppers",
+      "title": "Live At Slane Castle",
+      "year": 2003,
+      "label": "Warner Music Vision",
+      "format": "DVD DVD-Video Multichannel PAL Copy Protected",
+      "release_id": 2073120,
+      "date_added": "2026-10-01"
+    },
+    {
+      "artist": "John Mayall & The Bluesbreakers, Eric Clapton, Chris Barber, Mick Taylor",
+      "title": "70th Birthday Concert",
+      "year": 2003,
+      "label": "Eagle Vision",
+      "format": "DVD DVD-Video PAL",
+      "release_id": 3253110,
+      "date_added": "2026-10-01"
+    },
+    {
       "artist": "Eric Clapton",
-      "title": "Unplugged - Enhanced Edition",
-      "year": 2025,
-      "label": "Bushbranch Records",
-      "format": "CD Album Reissue Remastered",
-      "release_id": 33942180,
+      "title": "Crossroads Guitar Festival",
+      "year": 2004,
+      "label": "Warner Music Vision",
+      "format": "DVD DVD-Video PAL",
+      "release_id": 3981860,
+      "date_added": "2026-10-01"
+    },
+    {
+      "artist": "Cream",
+      "title": "Royal Albert Hall - London - May 2-3-5-6 05",
+      "year": 2005,
+      "label": "Warner Music Vision",
+      "format": "DVD DVD-Video Multichannel PAL Copy Protected Stereo",
+      "release_id": 3993516,
       "date_added": "2026-10-01"
     },
     {
@@ -84,6 +121,15 @@
       "label": "Gravity (6)",
       "format": "DVD DVD-Video PAL Reissue",
       "release_id": 4600640,
+      "date_added": "2026-10-01"
+    },
+    {
+      "artist": "Eric Clapton",
+      "title": "Live In Hyde Park",
+      "year": 2001,
+      "label": "Warner Music Vision",
+      "format": "DVD DVD-Video Multichannel PAL Copy Protected Stereo",
+      "release_id": 5672014,
       "date_added": "2026-10-01"
     },
     {
@@ -97,20 +143,29 @@
     },
     {
       "artist": "Eric Clapton",
-      "title": "The Lady In The Balcony: Lockdown Sessions",
-      "year": 2021,
-      "label": "Mercury Studios (5)",
-      "format": "Ultra HD Blu-ray 4K Multichannel Stereo Album / Blu-ray Album Stereo Multichannel",
-      "release_id": 20963356,
+      "title": "Crossroads (Eric Clapton Guitar Festival 2010)",
+      "year": 2010,
+      "label": "Rhino Records (2)",
+      "format": "DVD DVD-Video Multichannel",
+      "release_id": 8984441,
       "date_added": "2026-10-01"
     },
     {
-      "artist": "Jimi Hendrix",
-      "title": "Live At Woodstock",
-      "year": 2005,
-      "label": "Experience Hendrix",
-      "format": "DVD DVD-Video Multichannel Special Edition Stereo",
-      "release_id": 945034,
+      "artist": "Michael Jackson",
+      "title": "This Is It",
+      "year": 2010,
+      "label": "Sony Pictures Home Entertainment",
+      "format": "Blu-ray",
+      "release_id": 9819724,
+      "date_added": "2026-10-01"
+    },
+    {
+      "artist": "Eric Clapton",
+      "title": "Live In San Diego (With Special Guest J.J. Cale)",
+      "year": 2017,
+      "label": "Reprise Records",
+      "format": "DVD DVD-Video NTSC",
+      "release_id": 9969503,
       "date_added": "2026-10-01"
     },
     {
@@ -133,42 +188,6 @@
     },
     {
       "artist": "Eric Clapton",
-      "title": "Live In Hyde Park",
-      "year": 2001,
-      "label": "Warner Music Vision",
-      "format": "DVD DVD-Video Multichannel PAL Copy Protected Stereo",
-      "release_id": 5672014,
-      "date_added": "2026-10-01"
-    },
-    {
-      "artist": "Eric Clapton",
-      "title": "Live In San Diego (With Special Guest J.J. Cale)",
-      "year": 2017,
-      "label": "Reprise Records",
-      "format": "DVD DVD-Video NTSC",
-      "release_id": 9969503,
-      "date_added": "2026-10-01"
-    },
-    {
-      "artist": "Red Hot Chili Peppers",
-      "title": "Live At Slane Castle",
-      "year": 2003,
-      "label": "Warner Music Vision",
-      "format": "DVD DVD-Video Multichannel PAL Copy Protected",
-      "release_id": 2073120,
-      "date_added": "2026-10-01"
-    },
-    {
-      "artist": "Eric Clapton",
-      "title": "Crossroads (Eric Clapton Guitar Festival 2010)",
-      "year": 2010,
-      "label": "Rhino Records (2)",
-      "format": "DVD DVD-Video Multichannel",
-      "release_id": 8984441,
-      "date_added": "2026-10-01"
-    },
-    {
-      "artist": "Eric Clapton",
       "title": "Eric Clapton's Crossroads Guitar Festival 2019",
       "year": 2020,
       "label": "Crossroads Centre Antigua",
@@ -178,38 +197,20 @@
     },
     {
       "artist": "Eric Clapton",
-      "title": "Crossroads Guitar Festival",
-      "year": 2004,
-      "label": "Warner Music Vision",
-      "format": "DVD DVD-Video PAL",
-      "release_id": 3981860,
+      "title": "The Lady In The Balcony: Lockdown Sessions",
+      "year": 2021,
+      "label": "Mercury Studios (5)",
+      "format": "Ultra HD Blu-ray 4K Multichannel Stereo Album / Blu-ray Album Stereo Multichannel",
+      "release_id": 20963356,
       "date_added": "2026-10-01"
     },
     {
-      "artist": "Cream",
-      "title": "Royal Albert Hall - London - May 2-3-5-6 05",
-      "year": 2005,
-      "label": "Warner Music Vision",
-      "format": "DVD DVD-Video Multichannel PAL Copy Protected Stereo",
-      "release_id": 3993516,
-      "date_added": "2026-10-01"
-    },
-    {
-      "artist": "John Mayall & The Bluesbreakers, Eric Clapton, Chris Barber, Mick Taylor",
-      "title": "70th Birthday Concert",
-      "year": 2003,
-      "label": "Eagle Vision",
-      "format": "DVD DVD-Video PAL",
-      "release_id": 3253110,
-      "date_added": "2026-10-01"
-    },
-    {
-      "artist": "Michael Jackson",
-      "title": "This Is It",
-      "year": 2010,
-      "label": "Sony Pictures Home Entertainment",
-      "format": "Blu-ray",
-      "release_id": 9819724,
+      "artist": "Eric Clapton",
+      "title": "Unplugged - Enhanced Edition",
+      "year": 2025,
+      "label": "Bushbranch Records",
+      "format": "CD Album Reissue Remastered",
+      "release_id": 33942180,
       "date_added": "2026-10-01"
     },
     {
@@ -222,15 +223,6 @@
       "date_added": "2026-09-27"
     },
     {
-      "artist": "Michael Franti And Spearhead",
-      "title": "Yell Fire!",
-      "year": 2006,
-      "label": "Anti-",
-      "format": "CD Album",
-      "release_id": 819573,
-      "date_added": "2026-09-17"
-    },
-    {
       "artist": "Ryuichi Sakamoto",
       "title": "High Heels Soundtrack",
       "year": 1992,
@@ -240,12 +232,12 @@
       "date_added": "2026-09-17"
     },
     {
-      "artist": "Various",
-      "title": "City Of Angels (Music From And Inspired By The Motion Picture)",
-      "year": null,
-      "label": "Reprise Records",
-      "format": "CD HDCD Compilation Repress",
-      "release_id": 28147666,
+      "artist": "Michael Franti And Spearhead",
+      "title": "Yell Fire!",
+      "year": 2006,
+      "label": "Anti-",
+      "format": "CD Album",
+      "release_id": 819573,
       "date_added": "2026-09-17"
     },
     {
@@ -259,6 +251,15 @@
     },
     {
       "artist": "Various",
+      "title": "City Of Angels (Music From And Inspired By The Motion Picture)",
+      "year": null,
+      "label": "Reprise Records",
+      "format": "CD HDCD Compilation Repress",
+      "release_id": 28147666,
+      "date_added": "2026-09-17"
+    },
+    {
+      "artist": "Various",
       "title": "De Mooiste Muziek Uit 20 Onvergetelijke Films",
       "year": 2009,
       "label": "EMI",
@@ -267,12 +268,39 @@
       "date_added": "2026-09-15"
     },
     {
+      "artist": "Jamiroquai",
+      "title": "A Funk Odyssey",
+      "year": 2001,
+      "label": "Sony Soho Square",
+      "format": "CD Album Stereo",
+      "release_id": 21976,
+      "date_added": "2026-09-04"
+    },
+    {
       "artist": "Laurent Garnier",
       "title": "Unreasonable Behaviour",
       "year": 2000,
       "label": "F Communications",
       "format": "CD Album Stereo",
       "release_id": 42395,
+      "date_added": "2026-09-04"
+    },
+    {
+      "artist": "Brainpower",
+      "title": "Verschil Moet Er Zijn",
+      "year": 2002,
+      "label": "[PIAS] Recordings",
+      "format": "CD Album Enhanced",
+      "release_id": 580428,
+      "date_added": "2026-09-04"
+    },
+    {
+      "artist": "NOFX",
+      "title": "Punk In Drublic",
+      "year": null,
+      "label": "Epitaph",
+      "format": "CD Album Reissue",
+      "release_id": 1055662,
       "date_added": "2026-09-04"
     },
     {
@@ -294,31 +322,49 @@
       "date_added": "2026-09-04"
     },
     {
-      "artist": "NOFX",
-      "title": "Punk In Drublic",
-      "year": null,
-      "label": "Epitaph",
-      "format": "CD Album Reissue",
-      "release_id": 1055662,
-      "date_added": "2026-09-04"
-    },
-    {
-      "artist": "Brainpower",
-      "title": "Verschil Moet Er Zijn",
-      "year": 2002,
-      "label": "[PIAS] Recordings",
-      "format": "CD Album Enhanced",
-      "release_id": 580428,
-      "date_added": "2026-09-04"
-    },
-    {
-      "artist": "Jamiroquai",
-      "title": "A Funk Odyssey",
-      "year": 2001,
-      "label": "Sony Soho Square",
+      "artist": "Bebel Gilberto",
+      "title": "Bebel Gilberto",
+      "year": 2004,
+      "label": "Ziriguiboom",
       "format": "CD Album Stereo",
-      "release_id": 21976,
-      "date_added": "2026-09-04"
+      "release_id": 300727,
+      "date_added": "2026-09-03"
+    },
+    {
+      "artist": "Arrested Development",
+      "title": "Zingalamaduni",
+      "year": 1994,
+      "label": "Chrysalis",
+      "format": "CD Album",
+      "release_id": 410066,
+      "date_added": "2026-09-03"
+    },
+    {
+      "artist": "Kraak & Smaak",
+      "title": "Boogie Angst",
+      "year": 2005,
+      "label": "Jalapeno Records",
+      "format": "CD Album",
+      "release_id": 471892,
+      "date_added": "2026-09-03"
+    },
+    {
+      "artist": "Fleetwood Mac",
+      "title": "The Dance",
+      "year": 1997,
+      "label": "Reprise Records",
+      "format": "CD Album",
+      "release_id": 489105,
+      "date_added": "2026-09-03"
+    },
+    {
+      "artist": "The Band",
+      "title": "The Last Waltz",
+      "year": 2003,
+      "label": "Rhino Records (2)",
+      "format": "CD Album Reissue Remastered",
+      "release_id": 857702,
+      "date_added": "2026-09-03"
     },
     {
       "artist": "The Chemical Brothers",
@@ -339,21 +385,12 @@
       "date_added": "2026-09-03"
     },
     {
-      "artist": "The Band",
-      "title": "The Last Waltz",
-      "year": 2003,
-      "label": "Rhino Records (2)",
-      "format": "CD Album Reissue Remastered",
-      "release_id": 857702,
-      "date_added": "2026-09-03"
-    },
-    {
-      "artist": "Arrested Development",
-      "title": "Zingalamaduni",
-      "year": 1994,
-      "label": "Chrysalis",
-      "format": "CD Album",
-      "release_id": 410066,
+      "artist": "Moderat",
+      "title": "III",
+      "year": 2016,
+      "label": "Monkeytown Records",
+      "format": "CD Album Deluxe Edition Stereo / CD",
+      "release_id": 8330443,
       "date_added": "2026-09-03"
     },
     {
@@ -366,15 +403,6 @@
       "date_added": "2026-09-03"
     },
     {
-      "artist": "Moderat",
-      "title": "III",
-      "year": 2016,
-      "label": "Monkeytown Records",
-      "format": "CD Album Deluxe Edition Stereo / CD",
-      "release_id": 8330443,
-      "date_added": "2026-09-03"
-    },
-    {
       "artist": "Eels",
       "title": "Extreme Witchcraft",
       "year": 2022,
@@ -382,42 +410,6 @@
       "format": "CD Album",
       "release_id": 21926749,
       "date_added": "2026-09-03"
-    },
-    {
-      "artist": "Fleetwood Mac",
-      "title": "The Dance",
-      "year": 1997,
-      "label": "Reprise Records",
-      "format": "CD Album",
-      "release_id": 489105,
-      "date_added": "2026-09-03"
-    },
-    {
-      "artist": "Bebel Gilberto",
-      "title": "Bebel Gilberto",
-      "year": 2004,
-      "label": "Ziriguiboom",
-      "format": "CD Album Stereo",
-      "release_id": 300727,
-      "date_added": "2026-09-03"
-    },
-    {
-      "artist": "Kraak & Smaak",
-      "title": "Boogie Angst",
-      "year": 2005,
-      "label": "Jalapeno Records",
-      "format": "CD Album",
-      "release_id": 471892,
-      "date_added": "2026-09-03"
-    },
-    {
-      "artist": "Various",
-      "title": "Baby Driver (Music From The Motion Picture)",
-      "year": 2017,
-      "label": "30th Century Records",
-      "format": "CD Compilation",
-      "release_id": 10694499,
-      "date_added": "2026-08-31"
     },
     {
       "artist": "Pharrell Williams",
@@ -429,34 +421,106 @@
       "date_added": "2026-08-31"
     },
     {
-      "artist": "Q65",
-      "title": "Revolution",
-      "year": 1966,
-      "label": "Decca",
-      "format": "Vinyl LP Album Mono",
-      "release_id": 598257,
+      "artist": "Various",
+      "title": "Baby Driver (Music From The Motion Picture)",
+      "year": 2017,
+      "label": "30th Century Records",
+      "format": "CD Compilation",
+      "release_id": 10694499,
+      "date_added": "2026-08-31"
+    },
+    {
+      "artist": "Zero 7",
+      "title": "Simple Things",
+      "year": 2001,
+      "label": "Ultimate Dilemma",
+      "format": "CD Album",
+      "release_id": 49594,
       "date_added": "2026-08-30"
     },
     {
-      "artist": "Flavium",
-      "title": "Against The Grain",
-      "year": 1982,
-      "label": "Polydor",
-      "format": "Vinyl LP",
-      "release_id": 3502605,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "Nas",
-      "title": "Illmatic",
-      "year": 2006,
+      "artist": "Miles Davis",
+      "title": "Kind Of Blue",
+      "year": 1997,
       "label": "Columbia",
-      "format": "Vinyl LP Album Reissue Repress",
-      "release_id": 3207332,
+      "format": "CD Album Reissue Remastered",
+      "release_id": 368061,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "John Coltrane",
+      "title": "Blue Train",
+      "year": 2003,
+      "label": "Blue Note",
+      "format": "CD Album Reissue Remastered Copy Protected",
+      "release_id": 435859,
       "date_added": "2026-08-30"
     }
   ],
   "recent_wants": [
+    {
+      "artist": "Placebo",
+      "title": "Loud Like Love",
+      "year": 2013,
+      "label": "Vertigo",
+      "format": "CD Album / DVD DVD-Video NTSC / All Media Limited Edition",
+      "release_id": 4904485,
+      "date_added": "2026-10-12"
+    },
+    {
+      "artist": "Placebo",
+      "title": "Loud Like Love",
+      "year": 2013,
+      "label": "Vertigo",
+      "format": "CD Album",
+      "release_id": 4919221,
+      "date_added": "2026-10-12"
+    },
+    {
+      "artist": "Placebo",
+      "title": "Loud Like Love",
+      "year": 2018,
+      "label": "AWAL Recordings Ltd",
+      "format": "CD Album Reissue",
+      "release_id": 12339337,
+      "date_added": "2026-10-12"
+    },
+    {
+      "artist": "Placebo",
+      "title": "Never Let Me Go",
+      "year": 2022,
+      "label": "So Recordings",
+      "format": "CD Album / Box Set",
+      "release_id": 22482848,
+      "date_added": "2026-10-12"
+    },
+    {
+      "artist": "Placebo",
+      "title": "Never Let Me Go",
+      "year": 2022,
+      "label": "So Recordings",
+      "format": "CD Album / Box Set",
+      "release_id": 22639430,
+      "date_added": "2026-10-12"
+    },
+    {
+      "artist": "Placebo",
+      "title": "Never Let Me Go",
+      "year": 2022,
+      "label": "So Recordings",
+      "format": "CD Album / Box Set",
+      "release_id": 22663040,
+      "date_added": "2026-10-12"
+    },
+    {
+      "artist": "Spacetime Continuum",
+      "title": "Sea Biscuit",
+      "year": 1994,
+      "label": "Astralwerks",
+      "format": "CD Album",
+      "release_id": 41543,
+      "date_added": "2026-10-07"
+    },
     {
       "artist": "Spacetime Continuum",
       "title": "Sea Biscuit",
@@ -476,13 +540,13 @@
       "date_added": "2026-10-07"
     },
     {
-      "artist": "Spacetime Continuum",
-      "title": "Sea Biscuit",
-      "year": 1994,
-      "label": "Astralwerks",
+      "artist": "Pearl Jam",
+      "title": "Binaural",
+      "year": 2000,
+      "label": "Epic",
       "format": "CD Album",
-      "release_id": 41543,
-      "date_added": "2026-10-07"
+      "release_id": 563371,
+      "date_added": "2026-09-28"
     },
     {
       "artist": "Pearl Jam",
@@ -494,13 +558,13 @@
       "date_added": "2026-09-28"
     },
     {
-      "artist": "Pearl Jam",
-      "title": "Binaural",
-      "year": 2000,
-      "label": "Epic",
+      "artist": "Chef'Special",
+      "title": "Unfold",
+      "year": 2020,
+      "label": "Kaiser Records",
       "format": "CD Album",
-      "release_id": 563371,
-      "date_added": "2026-09-28"
+      "release_id": 16174031,
+      "date_added": "2026-09-12"
     },
     {
       "artist": "Chef'Special",
@@ -512,13 +576,112 @@
       "date_added": "2026-09-12"
     },
     {
-      "artist": "Chef'Special",
-      "title": "Unfold",
-      "year": 2020,
-      "label": "Kaiser Records",
+      "artist": "Nils Petter Molvær",
+      "title": "Khmer",
+      "year": null,
+      "label": "ECM Records",
+      "format": "CD Album Reissue",
+      "release_id": 163698,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Koop",
+      "title": "Waltz For Koop",
+      "year": 2002,
+      "label": "Stimulus",
       "format": "CD Album",
-      "release_id": 16174031,
-      "date_added": "2026-09-12"
+      "release_id": 246087,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "E.S.T.",
+      "title": "From Gagarin's Point Of View",
+      "year": 1999,
+      "label": "Superstudio Gul",
+      "format": "CD Album",
+      "release_id": 265697,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Koop",
+      "title": "Waltz For Koop",
+      "year": 2001,
+      "label": "Superstudio Grå",
+      "format": "CD Album",
+      "release_id": 669469,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Charles Mingus",
+      "title": "Mingus Ah Um",
+      "year": 2007,
+      "label": "Columbia",
+      "format": "CD Album Remastered Reissue",
+      "release_id": 1156981,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Stan Getz, João Gilberto, Antonio Carlos Jobim",
+      "title": "Getz / Gilberto",
+      "year": 1997,
+      "label": "Verve Records",
+      "format": "CD Album Reissue Remastered",
+      "release_id": 1281346,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Charles Mingus",
+      "title": "Mingus Ah Um",
+      "year": null,
+      "label": "CBS",
+      "format": "CD Album Reissue Remastered Stereo",
+      "release_id": 1333372,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "E.S.T.",
+      "title": "From Gagarin's Point Of View",
+      "year": 1999,
+      "label": "ACT (4)",
+      "format": "CD Album Reissue",
+      "release_id": 2422947,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Charles Mingus",
+      "title": "Mingus Ah Um",
+      "year": 1999,
+      "label": "Columbia",
+      "format": "CD Album Reissue Remastered Stereo",
+      "release_id": 2430595,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Nils Petter Molvær",
+      "title": "Khmer",
+      "year": null,
+      "label": "ECM Records",
+      "format": "CD Album Reissue",
+      "release_id": 3555326,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "The Cannonball Adderley Quintet",
+      "title": "Mercy, Mercy, Mercy! (Live At \"The Club\")",
+      "year": 1995,
+      "label": "Capitol Jazz",
+      "format": "CD Album Reissue",
+      "release_id": 4053721,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Nils Petter Molvær",
+      "title": "Khmer",
+      "year": 1997,
+      "label": "ECM Records",
+      "format": "CD Album",
+      "release_id": 4816629,
+      "date_added": "2026-08-30"
     },
     {
       "artist": "GoGo Penguin",
@@ -530,39 +693,12 @@
       "date_added": "2026-08-30"
     },
     {
-      "artist": "GoGo Penguin",
-      "title": "v2.0",
-      "year": 2014,
-      "label": "Gondwana Records",
+      "artist": "Nils Petter Molvær",
+      "title": "Khmer",
+      "year": 1997,
+      "label": "ECM Records",
       "format": "CD Album",
-      "release_id": 16004841,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "GoGo Penguin",
-      "title": "v2.0 Special Edition",
-      "year": 2018,
-      "label": "Gondwana Records",
-      "format": "CD Album Reissue Special Edition",
-      "release_id": 28535938,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "Stan Getz, João Gilberto, Antonio Carlos Jobim",
-      "title": "Getz / Gilberto",
-      "year": 2019,
-      "label": "Verve Records",
-      "format": "CD Album Reissue Remastered Repress Stereo Mono",
-      "release_id": 13980182,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "Stan Getz, João Gilberto, Antonio Carlos Jobim",
-      "title": "Getz / Gilberto",
-      "year": 2008,
-      "label": "Verve Records",
-      "format": "CD Album Reissue",
-      "release_id": 8327386,
+      "release_id": 5663409,
       "date_added": "2026-08-30"
     },
     {
@@ -577,127 +713,10 @@
     {
       "artist": "Stan Getz, João Gilberto, Antonio Carlos Jobim",
       "title": "Getz / Gilberto",
-      "year": 1997,
+      "year": 2008,
       "label": "Verve Records",
-      "format": "CD Album Reissue Remastered",
-      "release_id": 1281346,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "E.S.T.",
-      "title": "From Gagarin's Point Of View",
-      "year": 2007,
-      "label": "Superstudio Gul",
       "format": "CD Album Reissue",
-      "release_id": 18019957,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "E.S.T.",
-      "title": "From Gagarin's Point Of View",
-      "year": 1999,
-      "label": "Superstudio Gul",
-      "format": "CD Album",
-      "release_id": 15358679,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "E.S.T.",
-      "title": "From Gagarin's Point Of View",
-      "year": 1999,
-      "label": "ACT (4)",
-      "format": "CD Album Reissue",
-      "release_id": 2422947,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "E.S.T.",
-      "title": "From Gagarin's Point Of View",
-      "year": 1999,
-      "label": "Superstudio Gul",
-      "format": "CD Album",
-      "release_id": 265697,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "Nils Petter Molvær",
-      "title": "Khmer",
-      "year": null,
-      "label": "ECM Records",
-      "format": "CD Album Reissue",
-      "release_id": 3555326,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "Nils Petter Molvær",
-      "title": "Khmer",
-      "year": null,
-      "label": "ECM Records",
-      "format": "CD Album Reissue",
-      "release_id": 163698,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "Nils Petter Molvær",
-      "title": "Khmer",
-      "year": 1997,
-      "label": "ECM Records",
-      "format": "CD Album Promo",
-      "release_id": 19305001,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "Nils Petter Molvær",
-      "title": "Khmer",
-      "year": 1997,
-      "label": "ECM Records",
-      "format": "CD Album",
-      "release_id": 5663409,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "Nils Petter Molvær",
-      "title": "Khmer",
-      "year": 1997,
-      "label": "ECM Records",
-      "format": "CD Album",
-      "release_id": 4816629,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "Charles Mingus",
-      "title": "Mingus Ah Um",
-      "year": 2007,
-      "label": "Columbia",
-      "format": "CD Album Remastered Reissue",
-      "release_id": 1156981,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "Charles Mingus",
-      "title": "Mingus Ah Um",
-      "year": null,
-      "label": "CBS",
-      "format": "CD Album Reissue Remastered Stereo",
-      "release_id": 1333372,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "Charles Mingus",
-      "title": "Mingus Ah Um",
-      "year": 2018,
-      "label": "Jazz Images",
-      "format": "CD Album Reissue Remastered Stereo",
-      "release_id": 13723418,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "Charles Mingus",
-      "title": "Mingus Ah Um",
-      "year": 1999,
-      "label": "Columbia",
-      "format": "CD Album Reissue Remastered Stereo",
-      "release_id": 2430595,
+      "release_id": 8327386,
       "date_added": "2026-08-30"
     },
     {
@@ -710,40 +729,67 @@
       "date_added": "2026-08-30"
     },
     {
-      "artist": "The Cannonball Adderley Quintet",
-      "title": "Mercy, Mercy, Mercy! (Live At \"The Club\")",
-      "year": 1995,
-      "label": "Capitol Jazz",
+      "artist": "Charles Mingus",
+      "title": "Mingus Ah Um",
+      "year": 2018,
+      "label": "Jazz Images",
+      "format": "CD Album Reissue Remastered Stereo",
+      "release_id": 13723418,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "Stan Getz, João Gilberto, Antonio Carlos Jobim",
+      "title": "Getz / Gilberto",
+      "year": 2019,
+      "label": "Verve Records",
+      "format": "CD Album Reissue Remastered Repress Stereo Mono",
+      "release_id": 13980182,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "E.S.T.",
+      "title": "From Gagarin's Point Of View",
+      "year": 1999,
+      "label": "Superstudio Gul",
+      "format": "CD Album",
+      "release_id": 15358679,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "GoGo Penguin",
+      "title": "v2.0",
+      "year": 2014,
+      "label": "Gondwana Records",
+      "format": "CD Album",
+      "release_id": 16004841,
+      "date_added": "2026-08-30"
+    },
+    {
+      "artist": "E.S.T.",
+      "title": "From Gagarin's Point Of View",
+      "year": 2007,
+      "label": "Superstudio Gul",
       "format": "CD Album Reissue",
-      "release_id": 4053721,
+      "release_id": 18019957,
       "date_added": "2026-08-30"
     },
     {
-      "artist": "Koop",
-      "title": "Waltz For Koop",
-      "year": 2002,
-      "label": "Stimulus",
-      "format": "CD Album",
-      "release_id": 246087,
+      "artist": "Nils Petter Molvær",
+      "title": "Khmer",
+      "year": 1997,
+      "label": "ECM Records",
+      "format": "CD Album Promo",
+      "release_id": 19305001,
       "date_added": "2026-08-30"
     },
     {
-      "artist": "Koop",
-      "title": "Waltz For Koop",
-      "year": 2001,
-      "label": "Superstudio Grå",
-      "format": "CD Album",
-      "release_id": 669469,
+      "artist": "GoGo Penguin",
+      "title": "v2.0 Special Edition",
+      "year": 2018,
+      "label": "Gondwana Records",
+      "format": "CD Album Reissue Special Edition",
+      "release_id": 28535938,
       "date_added": "2026-08-30"
-    },
-    {
-      "artist": "Madvillain",
-      "title": "Madvillainy",
-      "year": 2024,
-      "label": "Stones Throw Records",
-      "format": "Vinyl LP 45 RPM Album Reissue Remastered",
-      "release_id": 32459088,
-      "date_added": "2026-08-05"
     },
     {
       "artist": "Madvillain",
@@ -752,6 +798,15 @@
       "label": "Stones Throw Records",
       "format": "Vinyl LP Album Reissue Stereo",
       "release_id": 6035515,
+      "date_added": "2026-08-05"
+    },
+    {
+      "artist": "Madvillain",
+      "title": "Madvillainy",
+      "year": 2024,
+      "label": "Stones Throw Records",
+      "format": "Vinyl LP 45 RPM Album Reissue Remastered",
+      "release_id": 32459088,
       "date_added": "2026-08-05"
     },
     {
@@ -813,26 +868,17 @@
       "title": "Loud Rocks",
       "year": 2000,
       "label": "Loud Records",
-      "format": "CD Compilation Club Edition",
-      "release_id": 10853081,
-      "date_added": "2026-06-16"
-    },
-    {
-      "artist": "Various",
-      "title": "Loud Rocks",
-      "year": 2000,
-      "label": "Loud Records",
-      "format": "CD Compilation",
-      "release_id": 2539116,
-      "date_added": "2026-06-16"
-    },
-    {
-      "artist": "Various",
-      "title": "Loud Rocks",
-      "year": 2000,
-      "label": "Loud Records",
       "format": "CD Compilation",
       "release_id": 523694,
+      "date_added": "2026-06-16"
+    },
+    {
+      "artist": "Various",
+      "title": "Loud Rocks",
+      "year": 2000,
+      "label": "Loud Records",
+      "format": "CD Compilation",
+      "release_id": 870433,
       "date_added": "2026-06-16"
     },
     {
@@ -850,62 +896,21 @@
       "year": 2000,
       "label": "Loud Records",
       "format": "CD Compilation",
-      "release_id": 870433,
+      "release_id": 2539116,
       "date_added": "2026-06-16"
     },
     {
-      "artist": "Jamiroquai",
-      "title": "Automaton",
-      "year": 2017,
-      "label": "Virgin EMI Records",
-      "format": "CD Album Limited Edition",
-      "release_id": 10068005,
-      "date_added": "2026-06-04"
-    },
-    {
-      "artist": "Jamiroquai",
-      "title": "Automaton",
-      "year": 2017,
-      "label": "Virgin EMI Records",
-      "format": "CD Album",
-      "release_id": 10056690,
-      "date_added": "2026-06-04"
-    },
-    {
-      "artist": "Nas",
-      "title": "It Was Written",
-      "year": null,
-      "label": "Columbia",
-      "format": "CD Album Repress",
-      "release_id": 16249796,
-      "date_added": "2026-06-03"
-    },
-    {
-      "artist": "Nas",
-      "title": "It Was Written",
-      "year": 1996,
-      "label": "Columbia",
-      "format": "CD Album",
-      "release_id": 15833907,
-      "date_added": "2026-06-03"
-    },
-    {
-      "artist": "Nas",
-      "title": "It Was Written",
-      "year": 1996,
-      "label": "Columbia",
-      "format": "CD Album",
-      "release_id": 455620,
-      "date_added": "2026-06-03"
-    },
-    {
-      "artist": "Nas",
-      "title": "It Was Written",
-      "year": 1996,
-      "label": "Columbia",
-      "format": "CD Album",
-      "release_id": 22250344,
-      "date_added": "2026-06-03"
+      "artist": "Various",
+      "title": "Loud Rocks",
+      "year": 2000,
+      "label": "Loud Records",
+      "format": "CD Compilation Club Edition",
+      "release_id": 10853081,
+      "date_added": "2026-06-16"
     }
-  ]
+  ],
+  "files": {
+    "collection": "data/collection.json",
+    "wantlist": "data/wantlist.json"
+  }
 }
