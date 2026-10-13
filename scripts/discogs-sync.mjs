@@ -1,14 +1,23 @@
 #!/usr/bin/env node
 /**
- * Haalt de Discogs-collectie en wantlist van één gebruiker op en schrijft
- * een compacte samenvatting naar data/discogs.json.
+ * Haalt de Discogs-collectie en wantlist van één gebruiker op.
+ *
+ * Schrijft drie bestanden:
+ *   data/discogs.json     compacte samenvatting (aantallen, mappen, laatste 50
+ *                         aanwinsten en wantlist-toevoegingen). Vorm ongewijzigd,
+ *                         zodat bestaande lezers blijven werken.
+ *   data/collection.json  de VOLLEDIGE collectie, één release per regel.
+ *   data/wantlist.json    de VOLLEDIGE wantlist, één release per regel.
+ *
+ * collection.json en wantlist.json bevatten bewust geen tijdstempel, zodat ze
+ * alleen in git veranderen als de collectie of wantlist echt verandert.
  *
  * Vereist twee omgevingsvariabelen:
  *   DISCOGS_TOKEN    personal access token (discogs.com/settings/developers)
  *   DISCOGS_USER     Discogs-gebruikersnaam
  *
- * Bewust NIET opgenomen in de uitvoer: betaalde prijs en plaats van aankoop.
- * De rest staat toch al publiek op je Discogs-profiel.
+ * Bewust NIET opgenomen in de uitvoer: betaalde prijs, plaats van aankoop en
+ * andere notities. De rest staat toch al publiek op je Discogs-profiel.
  */
 
 import { writeFile, mkdir } from 'node:fs/promises';
@@ -16,7 +25,11 @@ import { dirname } from 'node:path';
 
 const TOKEN = process.env.DISCOGS_TOKEN;
 const USER = process.env.DISCOGS_USER;
-const OUT = 'data/discogs.json';
+const OUT_SUMMARY = 'data/discogs.json';
+const OUT_COLLECTION = 'data/collection.json';
+const OUT_WANTLIST = 'data/wantlist.json';
+const PER_PAGE = 100; // maximum dat Discogs toestaat
+const PAUSE_MS = 1100; // ruim binnen de limiet van 60 verzoeken per minuut
 
 if (!TOKEN || !USER) {
   console.error('Ontbrekende omgevingsvariabelen: DISCOGS_TOKEN en/of DISCOGS_USER');
@@ -26,79 +39,138 @@ if (!TOKEN || !USER) {
 const HEADERS = {
   Authorization: `Discogs token=${TOKEN}`,
   // Discogs weigert verzoeken zonder herkenbare User-Agent.
-  'User-Agent': `discogs-sync/1.0 (+https://github.com/${process.env.GITHUB_REPOSITORY ?? 'local'})`,
+  'User-Agent': `discogs-sync/2.0 (+https://github.com/${process.env.GITHUB_REPOSITORY ?? 'local'})`,
 };
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function api(path) {
-  const url = `https://api.discogs.com${path}`;
-  const res = await fetch(url, { headers: HEADERS });
-  if (!res.ok) {
-    throw new Error(`${res.status} ${res.statusText} bij ${path}`);
+/** GET met één herkansing bij rate limiting (429) of een tijdelijke serverfout. */
+async function api(path, attempt = 1) {
+  const res = await fetch(`https://api.discogs.com${path}`, { headers: HEADERS });
+  if ((res.status === 429 || res.status >= 500) && attempt <= 3) {
+    const wait = 5000 * attempt;
+    console.warn(`${res.status} bij ${path}, opnieuw over ${wait / 1000}s…`);
+    await sleep(wait);
+    return api(path, attempt + 1);
   }
+  if (!res.ok) throw new Error(`${res.status} ${res.statusText} bij ${path}`);
   return res.json();
 }
 
+/** Haalt alle pagina's van een gepagineerd endpoint op. */
+async function allPages(basePath, key) {
+  const items = [];
+  let page = 1;
+  let pages = 1;
+  do {
+    const sep = basePath.includes('?') ? '&' : '?';
+    const res = await api(`${basePath}${sep}per_page=${PER_PAGE}&page=${page}`);
+    items.push(...(res[key] ?? []));
+    pages = res.pagination?.pages ?? 1;
+    console.log(`  ${key}: pagina ${page}/${pages}`);
+    page += 1;
+    if (page <= pages) await sleep(PAUSE_MS);
+  } while (page <= pages);
+  return items;
+}
+
+const cleanName = (s) => s.replace(/\s\(\d+\)$/, '');
+
 /** Zet een Discogs-item om naar een platte, leesbare regel. */
-function flatten(item) {
+function flatten(item, folderNames) {
   const b = item.basic_information ?? {};
   const format = (b.formats ?? [])
     .map((f) => [f.name, ...(f.descriptions ?? [])].join(' '))
     .join(' / ');
-  return {
-    artist: (b.artists ?? []).map((a) => a.name.replace(/\s\(\d+\)$/, '')).join(', '),
+  const row = {
+    artist: (b.artists ?? []).map((a) => cleanName(a.name)).join(', '),
     title: b.title ?? '',
     year: b.year || null,
     label: (b.labels ?? [])[0]?.name ?? null,
+    catno: (b.labels ?? [])[0]?.catno ?? null,
     format: format || null,
+    genres: b.genres ?? [],
+    styles: b.styles ?? [],
     release_id: b.id ?? item.id ?? null,
+    // master_id groepeert alle persingen van hetzelfde album. Handig om de
+    // wantlist te ontdubbelen: varianten delen hetzelfde master_id.
+    master_id: b.master_id || null,
     date_added: (item.date_added ?? '').slice(0, 10),
   };
+  if (folderNames && item.folder_id) {
+    row.folder = folderNames.get(item.folder_id) ?? String(item.folder_id);
+  }
+  return row;
+}
+
+/** Eén release per regel: leesbare git-diffs, ook bij duizend items. */
+function toLines(rows) {
+  return '[\n' + rows.map((r) => JSON.stringify(r)).join(',\n') + '\n]\n';
+}
+
+const byNewest = (a, b) =>
+  b.date_added.localeCompare(a.date_added) || (a.release_id ?? 0) - (b.release_id ?? 0);
+
+async function write(path, content) {
+  await mkdir(dirname(path), { recursive: true });
+  await writeFile(path, content);
 }
 
 async function main() {
   console.log(`Ophalen voor gebruiker ${USER}…`);
 
-  // 1. Mappen met hun aantallen. Map 0 is "All".
+  // 1. Mappen. Map 0 is "All" en bevat het totaal.
   const foldersRes = await api(`/users/${USER}/collection/folders`);
-  const folders = (foldersRes.folders ?? [])
-    .filter((f) => f.id !== 0)
-    .map((f) => ({ name: f.name, count: f.count }))
-    .sort((a, b) => b.count - a.count);
-  const collectionCount = (foldersRes.folders ?? []).find((f) => f.id === 0)?.count ?? null;
-  await sleep(1000);
+  const allFolders = foldersRes.folders ?? [];
+  // Map 0 ("All") is geen echte map; items staan altijd in map 1 of hoger.
+  const folderNames = new Map(allFolders.filter((f) => f.id !== 0).map((f) => [f.id, f.name]));
+  const collectionCount = allFolders.find((f) => f.id === 0)?.count ?? null;
+  await sleep(PAUSE_MS);
 
-  // 2. Laatste 50 toevoegingen aan de collectie.
-  const colRes = await api(
-    `/users/${USER}/collection/folders/0/releases?sort=added&sort_order=desc&per_page=50&page=1`
+  // 2. Volledige collectie.
+  const collectionRaw = await allPages(
+    `/users/${USER}/collection/folders/0/releases?sort=added&sort_order=desc`,
+    'releases'
   );
-  const recentAdditions = (colRes.releases ?? []).map(flatten);
-  await sleep(1000);
+  const collection = collectionRaw.map((i) => flatten(i, folderNames)).sort(byNewest);
+  await sleep(PAUSE_MS);
 
-  // 3. Laatste 50 toevoegingen aan de wantlist.
-  const wantRes = await api(
-    `/users/${USER}/wants?sort=added&sort_order=desc&per_page=50&page=1`
-  );
-  const recentWants = (wantRes.wants ?? []).map(flatten);
+  // 3. Volledige wantlist.
+  const wantRaw = await allPages(`/users/${USER}/wants?sort=added&sort_order=desc`, 'wants');
+  const wantlist = wantRaw.map((i) => flatten(i)).sort(byNewest);
 
-  const payload = {
+  // Mappen tellen vanuit de collectie zelf. Dat werkt ook als het
+  // mappen-endpoint alleen "All" teruggeeft.
+  const folderCounts = new Map();
+  for (const r of collection) {
+    if (r.folder) folderCounts.set(r.folder, (folderCounts.get(r.folder) ?? 0) + 1);
+  }
+  const folders = [...folderCounts]
+    .map(([name, count]) => ({ name, count }))
+    .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+
+  const uniqueWanted = new Set(wantlist.map((w) => w.master_id ?? `r${w.release_id}`)).size;
+
+  // Samenvatting: zelfde sleutels als voorheen, plus twee nieuwe tellers.
+  const summary = {
     generated_at: new Date().toISOString(),
     user: USER,
-    collection_count: collectionCount,
-    wantlist_count: wantRes.pagination?.items ?? null,
+    collection_count: collectionCount ?? collection.length,
+    wantlist_count: wantlist.length,
+    wantlist_unique_masters: uniqueWanted,
     folders,
-    recent_additions: recentAdditions,
-    recent_wants: recentWants,
+    recent_additions: collection.slice(0, 50).map(({ folder, genres, styles, catno, master_id, ...rest }) => rest),
+    recent_wants: wantlist.slice(0, 50).map(({ genres, styles, catno, master_id, ...rest }) => rest),
+    files: { collection: OUT_COLLECTION, wantlist: OUT_WANTLIST },
   };
 
-  await mkdir(dirname(OUT), { recursive: true });
-  await writeFile(OUT, JSON.stringify(payload, null, 2) + '\n');
+  await write(OUT_COLLECTION, toLines(collection));
+  await write(OUT_WANTLIST, toLines(wantlist));
+  await write(OUT_SUMMARY, JSON.stringify(summary, null, 2) + '\n');
 
   console.log(
-    `Geschreven naar ${OUT}: ${collectionCount} in collectie, ` +
-      `${payload.wantlist_count} op wantlist, ` +
-      `${recentAdditions.length} recente aanwinsten.`
+    `Klaar: ${collection.length} in collectie, ${wantlist.length} op wantlist ` +
+      `(${uniqueWanted} unieke albums), ${folders.length} mappen.`
   );
 }
 
