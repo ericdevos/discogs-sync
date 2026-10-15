@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-14T08:41:41.631Z",
+  "generated_at": "2026-10-15T08:16:59.382Z",
   "user": "CanisLupusNL",
   "collection_count": 1070,
-  "wantlist_count": 800,
-  "wantlist_unique_masters": 258,
+  "wantlist_count": 806,
+  "wantlist_unique_masters": 259,
   "folders": [],
   "recent_additions": [
     {
@@ -459,6 +459,60 @@
   ],
   "recent_wants": [
     {
+      "artist": "Moby",
+      "title": "Wait For Me",
+      "year": 2009,
+      "label": "Little Idiot",
+      "format": "CD Album",
+      "release_id": 1827122,
+      "date_added": "2026-10-14"
+    },
+    {
+      "artist": "Moby",
+      "title": "Wait For Me",
+      "year": 2009,
+      "label": "Ministry Of Sound",
+      "format": "CD Album",
+      "release_id": 1852539,
+      "date_added": "2026-10-14"
+    },
+    {
+      "artist": "Moby",
+      "title": "Wait For Me.",
+      "year": 2009,
+      "label": "Little Idiot",
+      "format": "CD Album / CD Album / DVD DVD-Video / All Media Deluxe Edition Limited Edition",
+      "release_id": 1987039,
+      "date_added": "2026-10-14"
+    },
+    {
+      "artist": "Moby",
+      "title": "Wait For Me. Deluxe Edition",
+      "year": 2009,
+      "label": "Ministry Of Sound",
+      "format": "CD Album / CD Album / DVD DVD-Video / All Media Deluxe Edition Limited Edition",
+      "release_id": 2045668,
+      "date_added": "2026-10-14"
+    },
+    {
+      "artist": "Moby",
+      "title": "Wait For Me",
+      "year": 2009,
+      "label": "Because Music",
+      "format": "CD Album / CD Album / DVD DVD-Video / All Media Deluxe Edition Limited Edition",
+      "release_id": 2118236,
+      "date_added": "2026-10-14"
+    },
+    {
+      "artist": "Moby",
+      "title": "Wait For Me",
+      "year": 2009,
+      "label": "Little Idiot",
+      "format": "CD Album",
+      "release_id": 3721875,
+      "date_added": "2026-10-14"
+    },
+    {
       "artist": "Placebo",
       "title": "Loud Like Love",
       "year": 2013,
@@ -853,60 +907,6 @@
       "format": "Blu-ray Multichannel",
       "release_id": 4501501,
       "date_added": "2026-07-08"
-    },
-    {
-      "artist": "Alanis Morissette",
-      "title": "Live At Montreux 2012",
-      "year": 2017,
-      "label": "EV Classics",
-      "format": "Blu-ray Reissue Multichannel",
-      "release_id": 13020469,
-      "date_added": "2026-07-08"
-    },
-    {
-      "artist": "Various",
-      "title": "Loud Rocks",
-      "year": 2000,
-      "label": "Loud Records",
-      "format": "CD Compilation",
-      "release_id": 523694,
-      "date_added": "2026-06-16"
-    },
-    {
-      "artist": "Various",
-      "title": "Loud Rocks",
-      "year": 2000,
-      "label": "Loud Records",
-      "format": "CD Compilation",
-      "release_id": 870433,
-      "date_added": "2026-06-16"
-    },
-    {
-      "artist": "Various",
-      "title": "Loud Rocks",
-      "year": 2000,
-      "label": "Loud Records",
-      "format": "CD Compilation",
-      "release_id": 2345317,
-      "date_added": "2026-06-16"
-    },
-    {
-      "artist": "Various",
-      "title": "Loud Rocks",
-      "year": 2000,
-      "label": "Loud Records",
-      "format": "CD Compilation",
-      "release_id": 2539116,
-      "date_added": "2026-06-16"
-    },
-    {
-      "artist": "Various",
-      "title": "Loud Rocks",
-      "year": 2000,
-      "label": "Loud Records",
-      "format": "CD Compilation Club Edition",
-      "release_id": 10853081,
-      "date_added": "2026-06-16"
     }
   ],
   "files": {
