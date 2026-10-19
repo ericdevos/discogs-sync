@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-19T22:10:49.480Z",
+  "generated_at": "2026-10-19T22:42:38.600Z",
   "user": "CanisLupusNL",
   "collection_count": 1070,
-  "wantlist_count": 806,
-  "wantlist_unique_masters": 259,
+  "wantlist_count": 808,
+  "wantlist_unique_masters": 260,
   "folders": [
     {
       "id": 6902026,
@@ -560,6 +560,24 @@
   ],
   "recent_wants": [
     {
+      "artist": "Various",
+      "title": "Superbad (Original Motion Picture Soundtrack)",
+      "year": 2007,
+      "label": "Lakeshore Records",
+      "format": "CD Compilation",
+      "release_id": 3085661,
+      "date_added": "2026-10-19"
+    },
+    {
+      "artist": "Various",
+      "title": "Superbad Original Motion Picture Soundtrack",
+      "year": 2007,
+      "label": "Edel Records",
+      "format": "CD Compilation",
+      "release_id": 6342286,
+      "date_added": "2026-10-19"
+    },
+    {
       "artist": "Moby",
       "title": "Wait For Me",
       "year": 2009,
@@ -990,24 +1008,6 @@
       "format": "CD Album Enhanced",
       "release_id": 12176463,
       "date_added": "2026-07-14"
-    },
-    {
-      "artist": "Daft Punk",
-      "title": "TRON: Legacy (Original Motion Picture Soundtrack)",
-      "year": 2010,
-      "label": "Walt Disney Records",
-      "format": "CD Album Enhanced",
-      "release_id": 23506904,
-      "date_added": "2026-07-14"
-    },
-    {
-      "artist": "Alanis Morissette",
-      "title": "Live At Montreux 2012",
-      "year": 2013,
-      "label": "Eagle Vision",
-      "format": "Blu-ray Multichannel",
-      "release_id": 4501501,
-      "date_added": "2026-07-08"
     }
   ],
   "files": {
