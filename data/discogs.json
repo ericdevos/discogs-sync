@@ -1,10 +1,111 @@
 {
-  "generated_at": "2026-10-19T08:50:26.856Z",
+  "generated_at": "2026-10-19T22:10:49.480Z",
   "user": "CanisLupusNL",
   "collection_count": 1070,
   "wantlist_count": 806,
   "wantlist_unique_masters": 259,
-  "folders": [],
+  "folders": [
+    {
+      "id": 6902026,
+      "name": "Rock",
+      "count": 273
+    },
+    {
+      "id": 6902023,
+      "name": "Pop",
+      "count": 111
+    },
+    {
+      "id": 6952273,
+      "name": "Downtempo",
+      "count": 89
+    },
+    {
+      "id": 6897061,
+      "name": "Singer-Songwriter",
+      "count": 84
+    },
+    {
+      "id": 6902032,
+      "name": "Soul - Funk",
+      "count": 66
+    },
+    {
+      "id": 6902029,
+      "name": "Electronic - Dance",
+      "count": 58
+    },
+    {
+      "id": 6902020,
+      "name": "Hip-Hop",
+      "count": 58
+    },
+    {
+      "id": 6902038,
+      "name": "World - Reggae",
+      "count": 50
+    },
+    {
+      "id": 6902065,
+      "name": "Jazz",
+      "count": 42
+    },
+    {
+      "id": 7079396,
+      "name": "Compilations",
+      "count": 40
+    },
+    {
+      "id": 6902035,
+      "name": "Classical",
+      "count": 35
+    },
+    {
+      "id": 7106810,
+      "name": "Indie - Alternative",
+      "count": 35
+    },
+    {
+      "id": 6902062,
+      "name": "Soundtracks",
+      "count": 35
+    },
+    {
+      "id": 7749356,
+      "name": "DVD",
+      "count": 32
+    },
+    {
+      "id": 1,
+      "name": "Uncategorized",
+      "count": 30
+    },
+    {
+      "id": 7335640,
+      "name": "Blues",
+      "count": 13
+    },
+    {
+      "id": 8143239,
+      "name": "Christmas",
+      "count": 7
+    },
+    {
+      "id": 7749446,
+      "name": "No cover",
+      "count": 6
+    },
+    {
+      "id": 7008952,
+      "name": "Pa en Ma",
+      "count": 3
+    },
+    {
+      "id": 7079390,
+      "name": "To sell",
+      "count": 3
+    }
+  ],
   "recent_additions": [
     {
       "artist": "Postmen",
