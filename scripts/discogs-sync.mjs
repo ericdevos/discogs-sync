@@ -7,7 +7,10 @@
  *                         aanwinsten en wantlist-toevoegingen). Vorm ongewijzigd,
  *                         zodat bestaande lezers blijven werken.
  *   data/collection.json  de VOLLEDIGE collectie, één release per regel, met de
- *                         Discogs-map waarin hij staat ("folder").
+ *                         Discogs-map waarin hij staat ("folder") en het jaar van
+ *                         de oorspronkelijke uitgave ("original_year", via de master).
+ *   data/masters.json     cache: master_id -> jaar, zodat alleen nieuwe albums
+ *                         opgevraagd worden.
  *   data/wantlist.json    de VOLLEDIGE wantlist, één release per regel.
  *
  * collection.json en wantlist.json bevatten bewust geen tijdstempel, zodat ze
@@ -21,7 +24,7 @@
  * andere notities. De rest staat toch al publiek op je Discogs-profiel.
  */
 
-import { writeFile, mkdir } from 'node:fs/promises';
+import { writeFile, mkdir, readFile } from 'node:fs/promises';
 import { dirname } from 'node:path';
 
 const TOKEN = process.env.DISCOGS_TOKEN;
@@ -29,6 +32,7 @@ const USER = process.env.DISCOGS_USER;
 const OUT_SUMMARY = 'data/discogs.json';
 const OUT_COLLECTION = 'data/collection.json';
 const OUT_WANTLIST = 'data/wantlist.json';
+const OUT_MASTERS = 'data/masters.json'; // master_id -> jaar van de oorspronkelijke uitgave (cache)
 const PER_PAGE = 100; // maximum dat Discogs toestaat
 const PAUSE_MS = 1100; // ruim binnen de limiet van 60 verzoeken per minuut
 
@@ -156,6 +160,30 @@ async function main() {
   const collection = collectionRaw.map((i) => flatten(i, folderNames)).sort(byNewest);
   await sleep(PAUSE_MS);
 
+  // 2b. Jaar van de oorspronkelijke uitgave, via de master release.
+  //     Eén verzoek per album; eerder opgehaalde jaren staan in masters.json.
+  let masters = {};
+  try { masters = JSON.parse(await readFile(OUT_MASTERS, 'utf8')); } catch { masters = {}; }
+  const todo = [...new Set(collection.map((r) => r.master_id).filter((id) => id && !(id in masters)))];
+  console.log(`Masters: ${Object.keys(masters).length} bekend, ${todo.length} nieuw op te halen`);
+  for (const [n, id] of todo.entries()) {
+    try {
+      const m = await api(`/masters/${id}`);
+      masters[id] = m.year || null;
+    } catch (err) {
+      console.warn(`  master ${id}: ${err.message}`);
+    }
+    if ((n + 1) % 100 === 0) {
+      console.log(`  masters: ${n + 1}/${todo.length}`);
+      await write(OUT_MASTERS, JSON.stringify(masters, null, 0) + '\n'); // tussentijds bewaren
+    }
+    await sleep(PAUSE_MS);
+  }
+  for (const r of collection) {
+    const y = r.master_id ? masters[r.master_id] : null;
+    r.original_year = y || r.year || null;
+  }
+
   // 3. Volledige wantlist.
   const wantRaw = await allPages(`/users/${USER}/wants?sort=added&sort_order=desc`, 'wants');
   const wantlist = wantRaw.map((i) => flatten(i)).sort(byNewest);
@@ -181,11 +209,12 @@ async function main() {
     wantlist_count: wantlist.length,
     wantlist_unique_masters: uniqueWanted,
     folders,
-    recent_additions: collection.slice(0, 50).map(({ folder, genres, styles, catno, master_id, ...rest }) => rest),
+    recent_additions: collection.slice(0, 50).map(({ folder, genres, styles, catno, master_id, original_year, ...rest }) => rest),
     recent_wants: wantlist.slice(0, 50).map(({ genres, styles, catno, master_id, ...rest }) => rest),
     files: { collection: OUT_COLLECTION, wantlist: OUT_WANTLIST },
   };
 
+  await write(OUT_MASTERS, JSON.stringify(masters, null, 0) + '\n');
   await write(OUT_COLLECTION, toLines(collection));
   await write(OUT_WANTLIST, toLines(wantlist));
   await write(OUT_SUMMARY, JSON.stringify(summary, null, 2) + '\n');
