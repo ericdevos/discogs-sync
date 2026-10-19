@@ -49,7 +49,7 @@ Die URL is direct op te halen door andere tools.
   "user": "CanisLupusNL",
   "collection_count": 1043,
   "wantlist_count": 789,
-  "folders": [{ "name": "Rock", "count": 268 }],
+  "folders": [{ "id": 6902026, "name": "Rock", "count": 268 }],
   "recent_additions": [
     {
       "artist": "Moderat",

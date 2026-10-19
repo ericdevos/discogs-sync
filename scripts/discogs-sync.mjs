@@ -6,7 +6,8 @@
  *   data/discogs.json     compacte samenvatting (aantallen, mappen, laatste 50
  *                         aanwinsten en wantlist-toevoegingen). Vorm ongewijzigd,
  *                         zodat bestaande lezers blijven werken.
- *   data/collection.json  de VOLLEDIGE collectie, één release per regel.
+ *   data/collection.json  de VOLLEDIGE collectie, één release per regel, met de
+ *                         Discogs-map waarin hij staat ("folder").
  *   data/wantlist.json    de VOLLEDIGE wantlist, één release per regel.
  *
  * collection.json en wantlist.json bevatten bewust geen tijdstempel, zodat ze
@@ -76,6 +77,9 @@ async function allPages(basePath, key) {
 
 const cleanName = (s) => s.replace(/\s\(\d+\)$/, '');
 
+/** instance_id -> map-id, gevuld door alle mappen één voor één op te halen. */
+let folderOfInstance = null;
+
 /** Zet een Discogs-item om naar een platte, leesbare regel. */
 function flatten(item, folderNames) {
   const b = item.basic_information ?? {};
@@ -97,8 +101,11 @@ function flatten(item, folderNames) {
     master_id: b.master_id || null,
     date_added: (item.date_added ?? '').slice(0, 10),
   };
-  if (folderNames && item.folder_id) {
-    row.folder = folderNames.get(item.folder_id) ?? String(item.folder_id);
+  if (folderNames) {
+    // Map 0 ("All") zegt niets over de echte map; daarom eerst de per-map-telling
+    const fromScan = folderOfInstance && folderOfInstance.get(item.instance_id);
+    const id = fromScan ?? (item.folder_id > 0 ? item.folder_id : null);
+    if (id) row.folder = folderNames.get(id) ?? String(id);
   }
   return row;
 }
@@ -125,7 +132,21 @@ async function main() {
   // Map 0 ("All") is geen echte map; items staan altijd in map 1 of hoger.
   const folderNames = new Map(allFolders.filter((f) => f.id !== 0).map((f) => [f.id, f.name]));
   const collectionCount = allFolders.find((f) => f.id === 0)?.count ?? null;
+  if (folderNames.size === 0) {
+    console.warn('Let op: Discogs geeft alleen map "All" terug. Het token wordt niet als eigenaar herkend;');
+    console.warn('gebruik een persoonlijk token (Settings > Developers > Generate token), geen Consumer Key.');
+  }
   await sleep(PAUSE_MS);
+
+  // 1b. Per map ophalen welke exemplaren erin staan. In map 0 ("All") geeft
+  //     Discogs niet altijd de echte map mee, per map is het eenduidig.
+  folderOfInstance = new Map();
+  for (const f of allFolders) {
+    if (f.id === 0 || !f.count) continue;
+    const items = await allPages(`/users/${USER}/collection/folders/${f.id}/releases`, 'releases');
+    for (const it of items) folderOfInstance.set(it.instance_id, f.id);
+    await sleep(PAUSE_MS);
+  }
 
   // 2. Volledige collectie.
   const collectionRaw = await allPages(
@@ -145,8 +166,9 @@ async function main() {
   for (const r of collection) {
     if (r.folder) folderCounts.set(r.folder, (folderCounts.get(r.folder) ?? 0) + 1);
   }
+  const idOfName = new Map([...folderNames].map(([id, name]) => [name, id]));
   const folders = [...folderCounts]
-    .map(([name, count]) => ({ name, count }))
+    .map(([name, count]) => ({ id: idOfName.get(name) ?? null, name, count }))
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
 
   const uniqueWanted = new Set(wantlist.map((w) => w.master_id ?? `r${w.release_id}`)).size;
