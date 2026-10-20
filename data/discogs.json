@@ -1,68 +1,63 @@
 {
-  "generated_at": "2026-10-20T07:59:49.363Z",
+  "generated_at": "2026-10-20T14:17:37.965Z",
   "user": "CanisLupusNL",
-  "collection_count": 1070,
+  "collection_count": 1067,
   "wantlist_count": 808,
   "wantlist_unique_masters": 260,
   "folders": [
     {
       "id": 6902026,
       "name": "Rock",
-      "count": 273
+      "count": 281
     },
     {
       "id": 6902023,
       "name": "Pop",
-      "count": 111
+      "count": 145
     },
     {
       "id": 6952273,
       "name": "Downtempo",
-      "count": 89
+      "count": 92
     },
     {
       "id": 6897061,
       "name": "Singer-Songwriter",
-      "count": 84
+      "count": 86
     },
     {
       "id": 6902032,
       "name": "Soul - Funk",
-      "count": 66
+      "count": 72
     },
     {
       "id": 6902029,
       "name": "Electronic - Dance",
-      "count": 58
+      "count": 66
     },
     {
       "id": 6902020,
       "name": "Hip-Hop",
-      "count": 58
+      "count": 60
     },
     {
       "id": 6902038,
       "name": "World - Reggae",
-      "count": 50
+      "count": 51
     },
     {
       "id": 6902065,
       "name": "Jazz",
-      "count": 42
+      "count": 43
     },
     {
-      "id": 7079396,
-      "name": "Compilations",
+      "id": 7106810,
+      "name": "Indie - Alternative",
       "count": 40
     },
     {
       "id": 6902035,
       "name": "Classical",
-      "count": 35
-    },
-    {
-      "id": 7106810,
-      "name": "Indie - Alternative",
       "count": 35
     },
     {
@@ -72,13 +67,8 @@
     },
     {
       "id": 7749356,
-      "name": "DVD",
+      "name": "DVD-Bluray",
       "count": 32
-    },
-    {
-      "id": 1,
-      "name": "Uncategorized",
-      "count": 30
     },
     {
       "id": 7335640,
@@ -96,13 +86,8 @@
       "count": 6
     },
     {
-      "id": 7008952,
-      "name": "Pa en Ma",
-      "count": 3
-    },
-    {
-      "id": 7079390,
-      "name": "To sell",
+      "id": 7079396,
+      "name": "Compilations",
       "count": 3
     }
   ],
