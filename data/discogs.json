@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-20T14:17:37.965Z",
+  "generated_at": "2026-10-20T19:12:16.587Z",
   "user": "CanisLupusNL",
-  "collection_count": 1067,
+  "collection_count": 1061,
   "wantlist_count": 808,
   "wantlist_unique_masters": 260,
   "folders": [
@@ -13,7 +13,7 @@
     {
       "id": 6902023,
       "name": "Pop",
-      "count": 145
+      "count": 148
     },
     {
       "id": 6952273,
@@ -79,16 +79,6 @@
       "id": 8143239,
       "name": "Christmas",
       "count": 7
-    },
-    {
-      "id": 7749446,
-      "name": "No cover",
-      "count": 6
-    },
-    {
-      "id": 7079396,
-      "name": "Compilations",
-      "count": 3
     }
   ],
   "recent_additions": [
