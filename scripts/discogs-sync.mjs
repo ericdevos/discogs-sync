@@ -97,6 +97,9 @@ function flatten(item, folderNames) {
     label: (b.labels ?? [])[0]?.name ?? null,
     catno: (b.labels ?? [])[0]?.catno ?? null,
     format: format || null,
+    // Hoofdsoort drager (CD, Vinyl, File …) en hoesafbeelding, voor www.ericdevos.nl
+    medium: (b.formats ?? [])[0]?.name ?? null,
+    cover: b.cover_image || null,
     genres: b.genres ?? [],
     styles: b.styles ?? [],
     release_id: b.id ?? item.id ?? null,
@@ -209,7 +212,7 @@ async function main() {
     wantlist_count: wantlist.length,
     wantlist_unique_masters: uniqueWanted,
     folders,
-    recent_additions: collection.slice(0, 50).map(({ folder, genres, styles, catno, master_id, original_year, ...rest }) => rest),
+    recent_additions: collection.slice(0, 50).map(({ folder, genres, styles, catno, master_id, original_year, medium, cover, ...rest }) => rest),
     recent_wants: wantlist.slice(0, 50).map(({ genres, styles, catno, master_id, ...rest }) => rest),
     files: { collection: OUT_COLLECTION, wantlist: OUT_WANTLIST },
   };
@@ -217,6 +220,12 @@ async function main() {
   await write(OUT_MASTERS, JSON.stringify(masters, null, 0) + '\n');
   await write(OUT_COLLECTION, toLines(collection));
   await write(OUT_WANTLIST, toLines(wantlist));
+  // Alleen een nieuwe tijdstempel als er inhoudelijk iets veranderd is (anders elke run een commit)
+  try {
+    const old = JSON.parse(await readFile(OUT_SUMMARY, 'utf8'));
+    const same = JSON.stringify({ ...old, generated_at: null }) === JSON.stringify({ ...summary, generated_at: null });
+    if (same && old.generated_at) summary.generated_at = old.generated_at;
+  } catch { /* nog geen bestand */ }
   await write(OUT_SUMMARY, JSON.stringify(summary, null, 2) + '\n');
 
   console.log(

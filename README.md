@@ -1,6 +1,6 @@
 # discogs-sync
 
-Haalt wekelijks de Discogs-collectie en wantlist op en publiceert een compacte
+Haalt elke drie uur de Discogs-collectie en wantlist op en publiceert een compacte
 samenvatting als JSON, zodat andere tools die kunnen lezen zonder zelf een
 Discogs-token nodig te hebben.
 
@@ -70,14 +70,21 @@ weekoverzicht en houdt het bestand klein.
 
 ## Schema
 
-Maandag 03:30 UTC. Aanpassen kan in `.github/workflows/discogs-sync.yml`; let op dat
-cron daar altijd in UTC staat.
+Elke drie uur (minuut 13). Discogs staat hooguit 6 uur bewaren van API-gegevens toe;
+met een sync om de drie uur en een korte cache op de site blijft het daaronder.
+`discogs.json` krijgt alleen een nieuwe `generated_at` als er echt iets veranderd is,
+zodat er niet elke run een commit komt. Aanpassen kan in
+`.github/workflows/discogs-sync.yml`; let op dat cron daar altijd in UTC staat.
+
+`collection.json` bevat per release ook `medium` (CD, Vinyl, File …) en `cover`
+(hoesafbeelding van Discogs), zodat www.ericdevos.nl de collectie niet zelf bij
+Discogs hoeft op te vragen.
 
 ## Kosten
 
 Geen. Private repositories zijn gratis en onbeperkt, en GitHub Actions geeft 2.000
 gratis minuten per maand (onbeperkt voor publieke repos). Deze job draait ongeveer
-twintig seconden per week.
+twintig seconden per run.
 
 ## Als het misgaat
 

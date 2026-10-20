@@ -2,8 +2,9 @@ name: Discogs sync
 
 on:
   schedule:
-    - cron: '13 3 * * *'
-  
+    # Elke 3 uur: Discogs staat hooguit 6 uur bewaren toe (sync + cache van de site blijven daaronder)
+    - cron: '13 */3 * * *'
+
   workflow_dispatch: # zodat je hem ook met de hand kunt starten
 
 permissions:
