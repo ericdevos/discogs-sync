@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-20T19:12:16.587Z",
+  "generated_at": "2026-10-21T21:37:31.657Z",
   "user": "CanisLupusNL",
-  "collection_count": 1061,
+  "collection_count": 1069,
   "wantlist_count": 808,
   "wantlist_unique_masters": 260,
   "folders": [
     {
       "id": 6902026,
       "name": "Rock",
-      "count": 281
+      "count": 282
     },
     {
       "id": 6902023,
       "name": "Pop",
-      "count": 148
+      "count": 152
     },
     {
       "id": 6952273,
@@ -28,7 +28,7 @@
     {
       "id": 6902032,
       "name": "Soul - Funk",
-      "count": 72
+      "count": 73
     },
     {
       "id": 6902029,
@@ -38,7 +38,7 @@
     {
       "id": 6902020,
       "name": "Hip-Hop",
-      "count": 60
+      "count": 61
     },
     {
       "id": 6902038,
@@ -56,13 +56,13 @@
       "count": 40
     },
     {
-      "id": 6902035,
-      "name": "Classical",
-      "count": 35
-    },
-    {
       "id": 6902062,
       "name": "Soundtracks",
+      "count": 36
+    },
+    {
+      "id": 6902035,
+      "name": "Classical",
       "count": 35
     },
     {
@@ -82,6 +82,78 @@
     }
   ],
   "recent_additions": [
+    {
+      "artist": "Rose",
+      "title": "Trust",
+      "year": 2002,
+      "label": "United Recordings",
+      "format": "CD",
+      "release_id": 95222,
+      "date_added": "2026-10-21"
+    },
+    {
+      "artist": "Kylie Minogue",
+      "title": "Body Language",
+      "year": 2003,
+      "label": "Parlophone",
+      "format": "CD Album Copy Protected",
+      "release_id": 207539,
+      "date_added": "2026-10-21"
+    },
+    {
+      "artist": "Phil Collins",
+      "title": "...But Seriously",
+      "year": 1989,
+      "label": "WEA",
+      "format": "CD Album Stereo",
+      "release_id": 369931,
+      "date_added": "2026-10-21"
+    },
+    {
+      "artist": "Total Touch",
+      "title": "This Way",
+      "year": 1998,
+      "label": "Ariola",
+      "format": "CD Album",
+      "release_id": 442820,
+      "date_added": "2026-10-21"
+    },
+    {
+      "artist": "Acda en de Munnik",
+      "title": "Groeten Uit Maaiveld (Luxe Editie)",
+      "year": 2002,
+      "label": "Sony Music Local",
+      "format": "CD Album / DVD DVD-Video",
+      "release_id": 467107,
+      "date_added": "2026-10-21"
+    },
+    {
+      "artist": "Kelis",
+      "title": "Tasty",
+      "year": 2003,
+      "label": "Virgin",
+      "format": "CD Album Copy Protected",
+      "release_id": 498258,
+      "date_added": "2026-10-21"
+    },
+    {
+      "artist": "Prince",
+      "title": "Batman (Motion Picture Soundtrack)",
+      "year": 1989,
+      "label": "Warner Bros. Records",
+      "format": "CD Album",
+      "release_id": 820252,
+      "date_added": "2026-10-21"
+    },
+    {
+      "artist": "Kane",
+      "title": "Fearless",
+      "year": 2005,
+      "label": "RCA",
+      "format": "CD",
+      "release_id": 1275659,
+      "date_added": "2026-10-21"
+    },
     {
       "artist": "Postmen",
       "title": "Revival",
@@ -459,78 +531,6 @@
       "format": "CD Album",
       "release_id": 2105718,
       "date_added": "2026-09-03"
-    },
-    {
-      "artist": "Moderat",
-      "title": "III",
-      "year": 2016,
-      "label": "Monkeytown Records",
-      "format": "CD Album Deluxe Edition Stereo / CD",
-      "release_id": 8330443,
-      "date_added": "2026-09-03"
-    },
-    {
-      "artist": "Tom Morello",
-      "title": "The Atlas Underground",
-      "year": 2018,
-      "label": "BMG",
-      "format": "CD",
-      "release_id": 12651584,
-      "date_added": "2026-09-03"
-    },
-    {
-      "artist": "Eels",
-      "title": "Extreme Witchcraft",
-      "year": 2022,
-      "label": "E Works Records",
-      "format": "CD Album",
-      "release_id": 21926749,
-      "date_added": "2026-09-03"
-    },
-    {
-      "artist": "Pharrell Williams",
-      "title": "G I R L",
-      "year": 2014,
-      "label": "Columbia",
-      "format": "CD Album Stereo",
-      "release_id": 5459672,
-      "date_added": "2026-08-31"
-    },
-    {
-      "artist": "Various",
-      "title": "Baby Driver (Music From The Motion Picture)",
-      "year": 2017,
-      "label": "30th Century Records",
-      "format": "CD Compilation",
-      "release_id": 10694499,
-      "date_added": "2026-08-31"
-    },
-    {
-      "artist": "Zero 7",
-      "title": "Simple Things",
-      "year": 2001,
-      "label": "Ultimate Dilemma",
-      "format": "CD Album",
-      "release_id": 49594,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "Miles Davis",
-      "title": "Kind Of Blue",
-      "year": 1997,
-      "label": "Columbia",
-      "format": "CD Album Reissue Remastered",
-      "release_id": 368061,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "John Coltrane",
-      "title": "Blue Train",
-      "year": 2003,
-      "label": "Blue Note",
-      "format": "CD Album Reissue Remastered Copy Protected",
-      "release_id": 435859,
-      "date_added": "2026-08-30"
     }
   ],
   "recent_wants": [
