@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-21T21:37:31.657Z",
+  "generated_at": "2026-10-25T16:08:18.857Z",
   "user": "CanisLupusNL",
   "collection_count": 1069,
-  "wantlist_count": 808,
-  "wantlist_unique_masters": 260,
+  "wantlist_count": 806,
+  "wantlist_unique_masters": 259,
   "folders": [
     {
       "id": 6902026,
@@ -722,28 +722,6 @@
       "date_added": "2026-10-07"
     },
     {
-      "artist": "Pearl Jam",
-      "title": "Binaural",
-      "year": 2000,
-      "label": "Epic",
-      "format": "CD Album",
-      "medium": "CD",
-      "cover": "https://i.discogs.com/0c2UH4Q_BsRutJkBdk0jCS3SQZ9vZlptpqTOTcqJw58/rs:fit/g:sm/q:90/h:533/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2MzM3/MS0xNzUzMzg4NzQz/LTg1MTIuanBlZw.jpeg",
-      "release_id": 563371,
-      "date_added": "2026-09-28"
-    },
-    {
-      "artist": "Pearl Jam",
-      "title": "Binaural",
-      "year": 2000,
-      "label": "Epic",
-      "format": "CD Album",
-      "medium": "CD",
-      "cover": "https://i.discogs.com/c-fXmI4Cs2liEEla7eHfBUk8kqvIDEXO9zxbrF7n_3Q/rs:fit/g:sm/q:90/h:543/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMDQ2/MzktMTMxMTMyMzI3/MS5qcGVn.jpeg",
-      "release_id": 3004639,
-      "date_added": "2026-09-28"
-    },
-    {
       "artist": "Chef'Special",
       "title": "Unfold",
       "year": 2020,
@@ -1083,6 +1061,28 @@
       "cover": "https://i.discogs.com/AIBm-6GLdYEWbB2GHXP54KIeUQE9aysOjK05Ps4BQ04/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMTc2/NDYzLTE1Mjk4MzU4/MzUtMTI5NC5qcGVn.jpeg",
       "release_id": 12176463,
       "date_added": "2026-07-14"
+    },
+    {
+      "artist": "Daft Punk",
+      "title": "TRON: Legacy (Original Motion Picture Soundtrack)",
+      "year": 2010,
+      "label": "Walt Disney Records",
+      "format": "CD Album Enhanced",
+      "medium": "CD",
+      "cover": "https://i.discogs.com/VOwGSxcazQOsZRCn4pS_sP9iQhIwJGBFNvNbiG4gqss/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzNTA2/OTA0LTE2NTQ2OTAw/NDMtNDE5OC5qcGVn.jpeg",
+      "release_id": 23506904,
+      "date_added": "2026-07-14"
+    },
+    {
+      "artist": "Alanis Morissette",
+      "title": "Live At Montreux 2012",
+      "year": 2013,
+      "label": "Eagle Vision",
+      "format": "Blu-ray Multichannel",
+      "medium": "Blu-ray",
+      "cover": "https://i.discogs.com/5RTFHIoRLh4yvGn5UEwib3TeVgBsNY-HvtlidkuPw1A/rs:fit/g:sm/q:90/h:600/w:483/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ1MDE1/MDEtMTU5OTQyOTU1/My04ODE0LmpwZWc.jpeg",
+      "release_id": 4501501,
+      "date_added": "2026-07-08"
     }
   ],
   "files": {
