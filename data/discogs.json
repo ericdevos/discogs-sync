@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-25T23:12:46.246Z",
+  "generated_at": "2026-10-29T09:51:54.505Z",
   "user": "CanisLupusNL",
-  "collection_count": 1069,
+  "collection_count": 1071,
   "wantlist_count": 800,
   "wantlist_unique_masters": 256,
   "folders": [
@@ -18,7 +18,7 @@
     {
       "id": 6952273,
       "name": "Downtempo",
-      "count": 92
+      "count": 93
     },
     {
       "id": 6897061,
@@ -38,7 +38,7 @@
     {
       "id": 6902020,
       "name": "Hip-Hop",
-      "count": 61
+      "count": 62
     },
     {
       "id": 6902038,
@@ -82,6 +82,24 @@
     }
   ],
   "recent_additions": [
+    {
+      "artist": "AIR",
+      "title": "Premiers Symptômes",
+      "year": 1999,
+      "label": "Source",
+      "format": "CD Compilation Reissue",
+      "release_id": 223628,
+      "date_added": "2026-10-28"
+    },
+    {
+      "artist": "MF Doom",
+      "title": "MM..Food",
+      "year": 2024,
+      "label": "Rhymesayers Entertainment",
+      "format": "CD Album Reissue Repress",
+      "release_id": 32285751,
+      "date_added": "2026-10-28"
+    },
     {
       "artist": "Rose",
       "title": "Trust",
@@ -512,24 +530,6 @@
       "label": "Rhino Records (2)",
       "format": "CD Album Reissue Remastered",
       "release_id": 857702,
-      "date_added": "2026-09-03"
-    },
-    {
-      "artist": "The Chemical Brothers",
-      "title": "We Are The Night",
-      "year": 2007,
-      "label": "Freestyle Dust",
-      "format": "CD Album Enhanced",
-      "release_id": 1004312,
-      "date_added": "2026-09-03"
-    },
-    {
-      "artist": "The Q4",
-      "title": "Sound Surroundings",
-      "year": 2010,
-      "label": "Project: Mooncircle",
-      "format": "CD Album",
-      "release_id": 2105718,
       "date_added": "2026-09-03"
     }
   ],
