@@ -12,6 +12,11 @@ on:
 permissions:
   contents: write # nodig om het resultaat terug te committen
 
+# Nooit twee syncs tegelijk (de uur-cron en de Worker kunnen samenvallen)
+concurrency:
+  group: discogs-sync
+  cancel-in-progress: false
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -37,5 +42,7 @@ jobs:
             echo "Geen wijzigingen."
           else
             git commit -m "Discogs-sync $(date -u +%Y-%m-%d)"
+            # Kwam er intussen een andere commit bij, eerst die ophalen
+            git pull --rebase origin main
             git push
           fi
