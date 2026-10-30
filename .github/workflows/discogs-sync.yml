@@ -2,8 +2,10 @@ name: Discogs sync
 
 on:
   schedule:
-    # Elke 3 uur: Discogs staat hooguit 6 uur bewaren toe (sync + cache van de site blijven daaronder)
-    - cron: '13 */3 * * *'
+    # Elk uur. GitHub laat geplande runs vaak uren schuiven of wegvallen; daarom start de Worker
+    # van ericdevos.nl (Cron Trigger, elk uur om :43) deze workflow ook via workflow_dispatch.
+    # Deze cron blijft als reserve. Discogs staat hooguit 6 uur bewaren toe; we blijven ruim daaronder.
+    - cron: '13 * * * *'
 
   workflow_dispatch: # zodat je hem ook met de hand kunt starten
 
