@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-29T09:51:54.505Z",
+  "generated_at": "2026-10-30T14:14:05.407Z",
   "user": "CanisLupusNL",
-  "collection_count": 1071,
+  "collection_count": 1079,
   "wantlist_count": 800,
   "wantlist_unique_masters": 256,
   "folders": [
     {
       "id": 6902026,
       "name": "Rock",
-      "count": 282
+      "count": 290
     },
     {
       "id": 6902023,
@@ -82,6 +82,78 @@
     }
   ],
   "recent_additions": [
+    {
+      "artist": "Jan Akkerman",
+      "title": "Profile",
+      "year": 1972,
+      "label": "Sire",
+      "format": "Vinyl LP Album",
+      "release_id": 1422052,
+      "date_added": "2026-10-30"
+    },
+    {
+      "artist": "The Rolling Stones",
+      "title": "The Rolling Stones",
+      "year": 1966,
+      "label": "Decca",
+      "format": "Vinyl LP Album Reissue Mono",
+      "release_id": 1866531,
+      "date_added": "2026-10-30"
+    },
+    {
+      "artist": "The Rolling Stones",
+      "title": "The Rolling Stones Vol. 2",
+      "year": null,
+      "label": "Decca",
+      "format": "Vinyl LP Album Reissue Mono",
+      "release_id": 1969714,
+      "date_added": "2026-10-30"
+    },
+    {
+      "artist": "The Rolling Stones",
+      "title": "Sticky Fingers",
+      "year": null,
+      "label": "Rolling Stones Records",
+      "format": "Vinyl LP Album Reissue Stereo",
+      "release_id": 2311831,
+      "date_added": "2026-10-30"
+    },
+    {
+      "artist": "The Rolling Stones",
+      "title": "Out Of Our Heads",
+      "year": 1965,
+      "label": "Decca",
+      "format": "Vinyl LP Album Mono",
+      "release_id": 2524809,
+      "date_added": "2026-10-30"
+    },
+    {
+      "artist": "The Rolling Stones",
+      "title": "Aftermath",
+      "year": 1966,
+      "label": "Decca",
+      "format": "Vinyl LP Album Mono",
+      "release_id": 3057093,
+      "date_added": "2026-10-30"
+    },
+    {
+      "artist": "The Rolling Stones",
+      "title": "Greatest Hits",
+      "year": 1964,
+      "label": "Decca",
+      "format": "Vinyl LP Compilation Mono",
+      "release_id": 3920873,
+      "date_added": "2026-10-30"
+    },
+    {
+      "artist": "The Rolling Stones",
+      "title": "No. 3",
+      "year": 1971,
+      "label": "Decca",
+      "format": "Vinyl LP Album Reissue Mono",
+      "release_id": 11063745,
+      "date_added": "2026-10-30"
+    },
     {
       "artist": "AIR",
       "title": "Premiers Symptômes",
@@ -459,78 +531,6 @@
       "format": "CD Album Enhanced",
       "release_id": 580428,
       "date_added": "2026-09-04"
-    },
-    {
-      "artist": "NOFX",
-      "title": "Punk In Drublic",
-      "year": null,
-      "label": "Epitaph",
-      "format": "CD Album Reissue",
-      "release_id": 1055662,
-      "date_added": "2026-09-04"
-    },
-    {
-      "artist": "U2",
-      "title": "Under A Blood Red Sky (Live)",
-      "year": null,
-      "label": "Island Records",
-      "format": "CD Album Reissue",
-      "release_id": 3114821,
-      "date_added": "2026-09-04"
-    },
-    {
-      "artist": "Everything But The Girl",
-      "title": "The Best Of Everything But The Girl",
-      "year": 1996,
-      "label": "Blanco Y Negro",
-      "format": "CD Album Compilation",
-      "release_id": 9371266,
-      "date_added": "2026-09-04"
-    },
-    {
-      "artist": "Bebel Gilberto",
-      "title": "Bebel Gilberto",
-      "year": 2004,
-      "label": "Ziriguiboom",
-      "format": "CD Album Stereo",
-      "release_id": 300727,
-      "date_added": "2026-09-03"
-    },
-    {
-      "artist": "Arrested Development",
-      "title": "Zingalamaduni",
-      "year": 1994,
-      "label": "Chrysalis",
-      "format": "CD Album",
-      "release_id": 410066,
-      "date_added": "2026-09-03"
-    },
-    {
-      "artist": "Kraak & Smaak",
-      "title": "Boogie Angst",
-      "year": 2005,
-      "label": "Jalapeno Records",
-      "format": "CD Album",
-      "release_id": 471892,
-      "date_added": "2026-09-03"
-    },
-    {
-      "artist": "Fleetwood Mac",
-      "title": "The Dance",
-      "year": 1997,
-      "label": "Reprise Records",
-      "format": "CD Album",
-      "release_id": 489105,
-      "date_added": "2026-09-03"
-    },
-    {
-      "artist": "The Band",
-      "title": "The Last Waltz",
-      "year": 2003,
-      "label": "Rhino Records (2)",
-      "format": "CD Album Reissue Remastered",
-      "release_id": 857702,
-      "date_added": "2026-09-03"
     }
   ],
   "recent_wants": [
