@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-30T14:14:05.407Z",
+  "generated_at": "2026-11-02T11:44:29.056Z",
   "user": "CanisLupusNL",
   "collection_count": 1079,
-  "wantlist_count": 800,
-  "wantlist_unique_masters": 256,
+  "wantlist_count": 801,
+  "wantlist_unique_masters": 257,
   "folders": [
     {
       "id": 6902026,
@@ -534,6 +534,17 @@
     }
   ],
   "recent_wants": [
+    {
+      "artist": "Röyksopp",
+      "title": "Nebulous Nights (An Ambient Excursion Into Profound Mysteries)",
+      "year": 2026,
+      "label": "Dog Triumph",
+      "format": "CD Album Deluxe Edition",
+      "medium": "CD",
+      "cover": "https://i.discogs.com/LwXxG8CuDjchCwpsSu3d4049aDVwOnGtyIOs_CEt6bw/rs:fit/g:sm/q:90/h:583/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTA0/NzA0LTE3NzQ3MDk5/NjEtNjUzNS5qcGVn.jpeg",
+      "release_id": 36904704,
+      "date_added": "2026-11-02"
+    },
     {
       "artist": "Various",
       "title": "Superbad (Original Motion Picture Soundtrack)",
@@ -1072,17 +1083,6 @@
       "cover": "https://i.discogs.com/VOwGSxcazQOsZRCn4pS_sP9iQhIwJGBFNvNbiG4gqss/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzNTA2/OTA0LTE2NTQ2OTAw/NDMtNDE5OC5qcGVn.jpeg",
       "release_id": 23506904,
       "date_added": "2026-07-14"
-    },
-    {
-      "artist": "Alanis Morissette",
-      "title": "Live At Montreux 2012",
-      "year": 2013,
-      "label": "Eagle Vision",
-      "format": "Blu-ray Multichannel",
-      "medium": "Blu-ray",
-      "cover": "https://i.discogs.com/5RTFHIoRLh4yvGn5UEwib3TeVgBsNY-HvtlidkuPw1A/rs:fit/g:sm/q:90/h:600/w:483/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ1MDE1/MDEtMTU5OTQyOTU1/My04ODE0LmpwZWc.jpeg",
-      "release_id": 4501501,
-      "date_added": "2026-07-08"
     }
   ],
   "files": {
