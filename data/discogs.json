@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-02T11:44:29.056Z",
+  "generated_at": "2026-11-05T13:44:28.389Z",
   "user": "CanisLupusNL",
-  "collection_count": 1079,
+  "collection_count": 1080,
   "wantlist_count": 801,
   "wantlist_unique_masters": 257,
   "folders": [
     {
       "id": 6902026,
       "name": "Rock",
-      "count": 290
+      "count": 291
     },
     {
       "id": 6902023,
@@ -82,6 +82,15 @@
     }
   ],
   "recent_additions": [
+    {
+      "artist": "Nirvana",
+      "title": "In Utero",
+      "year": null,
+      "label": "Geffen Records",
+      "format": "CD Album Reissue Stereo",
+      "release_id": 1608112,
+      "date_added": "2026-11-05"
+    },
     {
       "artist": "Jan Akkerman",
       "title": "Profile",
@@ -521,15 +530,6 @@
       "label": "F Communications",
       "format": "CD Album Stereo",
       "release_id": 42395,
-      "date_added": "2026-09-04"
-    },
-    {
-      "artist": "Brainpower",
-      "title": "Verschil Moet Er Zijn",
-      "year": 2002,
-      "label": "[PIAS] Recordings",
-      "format": "CD Album Enhanced",
-      "release_id": 580428,
       "date_added": "2026-09-04"
     }
   ],
