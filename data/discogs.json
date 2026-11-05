@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-05T13:44:28.389Z",
+  "generated_at": "2026-11-05T14:44:31.997Z",
   "user": "CanisLupusNL",
-  "collection_count": 1080,
+  "collection_count": 1081,
   "wantlist_count": 801,
   "wantlist_unique_masters": 257,
   "folders": [
@@ -38,7 +38,7 @@
     {
       "id": 6902020,
       "name": "Hip-Hop",
-      "count": 62
+      "count": 63
     },
     {
       "id": 6902038,
@@ -89,6 +89,15 @@
       "label": "Geffen Records",
       "format": "CD Album Reissue Stereo",
       "release_id": 1608112,
+      "date_added": "2026-11-05"
+    },
+    {
+      "artist": "MF Doom",
+      "title": "Operation: Doomsday",
+      "year": 2023,
+      "label": "Metal Face Records",
+      "format": "CD Album Reissue",
+      "release_id": 27914796,
       "date_added": "2026-11-05"
     },
     {
@@ -521,15 +530,6 @@
       "label": "Sony Soho Square",
       "format": "CD Album Stereo",
       "release_id": 21976,
-      "date_added": "2026-09-04"
-    },
-    {
-      "artist": "Laurent Garnier",
-      "title": "Unreasonable Behaviour",
-      "year": 2000,
-      "label": "F Communications",
-      "format": "CD Album Stereo",
-      "release_id": 42395,
       "date_added": "2026-09-04"
     }
   ],
