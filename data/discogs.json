@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-08T09:44:29.699Z",
+  "generated_at": "2026-11-17T08:44:21.897Z",
   "user": "CanisLupusNL",
   "collection_count": 1081,
-  "wantlist_count": 806,
-  "wantlist_unique_masters": 258,
+  "wantlist_count": 809,
+  "wantlist_unique_masters": 259,
   "folders": [
     {
       "id": 6902026,
@@ -535,6 +535,39 @@
   ],
   "recent_wants": [
     {
+      "artist": "Orbital",
+      "title": "Orbital",
+      "year": 2000,
+      "label": "Internal",
+      "format": "CD Album Reissue",
+      "medium": "CD",
+      "cover": "https://i.discogs.com/djFbpkv0Zvk2U5XRQ_bXl56PAtr4FwPr16pl25R8NbQ/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzODA3/LTEzMTExODg1NTku/anBlZw.jpeg",
+      "release_id": 33807,
+      "date_added": "2026-11-17"
+    },
+    {
+      "artist": "Orbital",
+      "title": "Orbital",
+      "year": 1993,
+      "label": "Internal",
+      "format": "CD Album Stereo",
+      "medium": "CD",
+      "cover": "https://i.discogs.com/BLeGjeZOiW4rcpRthtqNHrm9A5vUHsRAy2dhNER_eH8/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2ODQx/MzYtMTIzNjcyMjA2/MC5qcGVn.jpeg",
+      "release_id": 1684136,
+      "date_added": "2026-11-17"
+    },
+    {
+      "artist": "Orbital",
+      "title": "Orbital",
+      "year": 1993,
+      "label": "Internal",
+      "format": "CD Album",
+      "medium": "CD",
+      "cover": "https://i.discogs.com/DMCBudBMAp56cm-FoiavwyIyEg4h1_9LqxMPR7aFd_w/rs:fit/g:sm/q:90/h:600/w:591/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwMDk1/NTctMTQzMTYzNjI2/MS01OTE4LmpwZWc.jpeg",
+      "release_id": 7009557,
+      "date_added": "2026-11-17"
+    },
+    {
       "artist": "Various",
       "title": "Wipeout 2097: The Soundtrack",
       "year": 1996,
@@ -1050,39 +1083,6 @@
       "cover": "https://i.discogs.com/VI0eKolVsLJmKGWS_yeW0AZ_5J3VkvZmI76vmW7roSY/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4MDE5/OTU3LTE2MzA3MjM5/ODMtNDUyNi5qcGVn.jpeg",
       "release_id": 18019957,
       "date_added": "2026-08-30"
-    },
-    {
-      "artist": "Nils Petter Molvær",
-      "title": "Khmer",
-      "year": 1997,
-      "label": "ECM Records",
-      "format": "CD Album Promo",
-      "medium": "CD",
-      "cover": "https://i.discogs.com/kl5SXdqbmt6AxKC9WdCYa9uQW-9W_4IOhrs9I4IQfoQ/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5MzA1/MDAxLTE2NjUxMzU2/ODktMzMwMC5qcGVn.jpeg",
-      "release_id": 19305001,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "GoGo Penguin",
-      "title": "v2.0 Special Edition",
-      "year": 2018,
-      "label": "Gondwana Records",
-      "format": "CD Album Reissue Special Edition",
-      "medium": "CD",
-      "cover": "https://i.discogs.com/fyTLeayutPwJpxzRwGcrzSI9TR4p3Uxek8kr_BjrXWI/rs:fit/g:sm/q:90/h:583/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NTM1/OTM4LTE2OTY3ODg0/MTYtMzQwMS5qcGVn.jpeg",
-      "release_id": 28535938,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "Madvillain",
-      "title": "Madvillainy",
-      "year": 2006,
-      "label": "Stones Throw Records",
-      "format": "Vinyl LP Album Reissue Stereo",
-      "medium": "Vinyl",
-      "cover": "https://i.discogs.com/etuW81IJW67BUgopWR7ejNkU8vPSlBdaluh6Ev0dMDE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwMzU1/MTUtMTU5MTM4MjU4/NC01NDc2LmpwZWc.jpeg",
-      "release_id": 6035515,
-      "date_added": "2026-08-05"
     }
   ],
   "files": {
