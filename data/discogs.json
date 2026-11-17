@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-17T08:44:21.897Z",
+  "generated_at": "2026-11-17T11:44:47.977Z",
   "user": "CanisLupusNL",
   "collection_count": 1081,
-  "wantlist_count": 809,
+  "wantlist_count": 811,
   "wantlist_unique_masters": 259,
   "folders": [
     {
@@ -568,6 +568,28 @@
       "date_added": "2026-11-17"
     },
     {
+      "artist": "Ennio Morricone",
+      "title": "The Very Best Of",
+      "year": 2000,
+      "label": "Virgin",
+      "format": "CD Compilation",
+      "medium": "CD",
+      "cover": "https://i.discogs.com/xvYgMJnwXjO9GzkBUTgTtfnz4w7NVueOEIcr_CeO-1c/rs:fit/g:sm/q:90/h:516/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyODI2/MjQ5LTE1NDI2OTY1/NjMtMzYyNS5qcGVn.jpeg",
+      "release_id": 12826249,
+      "date_added": "2026-11-17"
+    },
+    {
+      "artist": "Ennio Morricone",
+      "title": "The Very Best Of",
+      "year": 2000,
+      "label": "Virgin",
+      "format": "CD Compilation",
+      "medium": "CD",
+      "cover": "https://i.discogs.com/LUGrZjwxhL-TX0vFjNW9lN6_aJn6tTnRszHIb403Svg/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNzM1/Mjk1LTE3MTYyMzYx/MTUtNTk4Ny5qcGVn.jpeg",
+      "release_id": 30735295,
+      "date_added": "2026-11-17"
+    },
+    {
       "artist": "Various",
       "title": "Wipeout 2097: The Soundtrack",
       "year": 1996,
@@ -1060,28 +1082,6 @@
       "medium": "CD",
       "cover": "https://i.discogs.com/4FXe9rTFx7Qg6_ipmFZuwu2nGH7X0IPlvfpywBeRm8U/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MzU4/Njc5LTE2NDc1MzUy/MTgtMjU1MC5qcGVn.jpeg",
       "release_id": 15358679,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "GoGo Penguin",
-      "title": "v2.0",
-      "year": 2014,
-      "label": "Gondwana Records",
-      "format": "CD Album",
-      "medium": "CD",
-      "cover": "https://i.discogs.com/CQxj_4e0KBbpWzLfyAJJipXmMlcOkbTWCWiHcwvlF_0/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MDA0/ODQxLTE3NDgzMjc5/OTktNzA3Ni5qcGVn.jpeg",
-      "release_id": 16004841,
-      "date_added": "2026-08-30"
-    },
-    {
-      "artist": "E.S.T.",
-      "title": "From Gagarin's Point Of View",
-      "year": 2007,
-      "label": "Superstudio Gul",
-      "format": "CD Album Reissue",
-      "medium": "CD",
-      "cover": "https://i.discogs.com/VI0eKolVsLJmKGWS_yeW0AZ_5J3VkvZmI76vmW7roSY/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4MDE5/OTU3LTE2MzA3MjM5/ODMtNDUyNi5qcGVn.jpeg",
-      "release_id": 18019957,
       "date_added": "2026-08-30"
     }
   ],
